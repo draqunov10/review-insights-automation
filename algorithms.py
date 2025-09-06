@@ -32,9 +32,9 @@ def filter_reviews_by_month(reviews: list[dict], month: int | str) -> list[dict]
     
     # Accept month as int or str, convert to int
     try: month_int = int(month)
-    except Exception: raise ValueError("Month must be an integer from 1 to 12.")
-    if not (1 <= month_int <= 12): raise ValueError("Month must be in the range 1 to 12.")
-    
+    except Exception: raise ValueError(f"Month must be an integer from 1 to 12. Got {month}")
+    if not (1 <= month_int <= 12): raise ValueError(f"Month must be in the range 1 to 12. Got {month}")
+
     filtered = []
     for review in reviews:
         review_date = review.get("When")
