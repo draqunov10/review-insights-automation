@@ -1,0 +1,1638 @@
+{
+    "input_id": "4ebbdf2a-78bf-4cf8-a96e-5ea63a15d9bf",
+    "link": "https://www.google.com/maps/place/LDV+Parramatta/data=!4m7!3m6!1s0x6b12a3a449a473e3:0xa77ac73686990ce8!8m2!3d-33.8251962!4d151.0040698!16s%2Fg%2F11ckqs_kv5!19sChIJ43OkSaSjEmsR6AyZhjbHeqc?authuser=0\u0026hl=en\u0026rclk=1",
+    "cid": "12068177188493004008",
+    "title": "LDV Parramatta",
+    "categories": [
+        "Car dealer",
+        "Motor vehicle dealer",
+        "Used car dealer"
+    ],
+    "category": "Car dealer",
+    "address": "334 Church St, Granville NSW 2142, Australia",
+    "open_hours": {
+        "Friday": [
+            "8:30 AM-5:30 PM"
+        ],
+        "Monday": [
+            "8:30 AM-5:30 PM"
+        ],
+        "Saturday": [
+            "9 AM-5:30 PM"
+        ],
+        "Sunday": [
+            "Closed"
+        ],
+        "Thursday": [
+            "8:30 AM-5:30 PM"
+        ],
+        "Tuesday": [
+            "8:30 AM-5:30 PM"
+        ],
+        "Wednesday": [
+            "8:30 AM-5:30 PM"
+        ]
+    },
+    "popular_times": {},
+    "web_site": "https://www.ldvparramatta.com.au/?utm_source=gmb\u0026utm_medium=organic",
+    "phone": "+61 2 9682 2100",
+    "plus_code": "52F3+WJ Granville, New South Wales, Australia",
+    "review_count": 271,
+    "review_rating": 4.2,
+    "reviews_per_rating": {
+        "1": 52,
+        "2": 2,
+        "3": 3,
+        "4": 7,
+        "5": 207
+    },
+    "latitude": -33.8251962,
+    "longtitude": 151.0040698,
+    "status": "Closed ⋅ Opens 9 AM Sat",
+    "description": "",
+    "reviews_link": "https://search.google.com/local/reviews?placeid=ChIJ43OkSaSjEmsR6AyZhjbHeqc\u0026q=LDV+Parramatta\u0026authuser=0\u0026hl=en\u0026gl=PH",
+    "thumbnail": "https://lh3.googleusercontent.com/p/AF1QipPKycfS0ZVvuMvVDDsdaEWjjP6IqiPgTnq733SF=w426-h240-k-no",
+    "timezone": "Australia/Sydney",
+    "price_range": "",
+    "data_id": "0x6b12a3a449a473e3:0xa77ac73686990ce8",
+    "images": [
+        {
+            "title": "All",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipPKycfS0ZVvuMvVDDsdaEWjjP6IqiPgTnq733SF=w529-h298-k-no"
+        },
+        {
+            "title": "Inside",
+            "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4npbxsNLX7x5Z_8Kug_LNPWMR4L0rlL9IQEl2nemUFADAfcHPZlDs_bNiGbJ14KtnDPQ2T0s76HMMs2tvkUiuvOzT41bcpdY3khRZ4g6c7zEPSSsj9JmwJTjzX8wKfhYTei0KF48xw=w224-h298-k-no"
+        },
+        {
+            "title": "Videos",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipN_fq1OWEwxH89fOlpv8SM0opOvlYAkhFJ93S15=w529-h298-k-no"
+        },
+        {
+            "title": "Car dealership",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipOudKLmP_yVg6vvU7OGfmQU9IXyusWFlfrAFrBS=w529-h298-k-no"
+        },
+        {
+            "title": "By owner",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipPO9wqxrVPsh5jwyMkYVN2HW2qfgjQ4DFMN-oB9=w529-h298-k-no"
+        },
+        {
+            "title": "Street View \u0026 360°",
+            "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrZ2cgPrVyg9mxK07nzv8NPrD62lcE9F143VBolrQhNwzQu6JjVJNl2hVscyFIcB5Qa7jAnyXBYGGO0spcnnB_49N1nSOZ-X_3nZwEBXvbDBA0a4lzjG8Klm41mTLbGh7K8i60Cmg=w224-h298-k-no-pi-10-ya278.6-ro0-fo100"
+        }
+    ],
+    "reservations": null,
+    "order_online": [
+        {
+            "link": "https://www.ldvparramatta.com.au/contact-us/?utm_source=gmb\u0026utm_medium=booking",
+            "source": "ldvparramatta.com.au"
+        }
+    ],
+    "menu": {
+        "link": "https://www.ldvparramatta.com.au/stock/new-ldv-for-sale-parramatta/?utm_source=gmb\u0026utm_medium=menu",
+        "source": "ldvparramatta.com.au"
+    },
+    "owner": {
+        "id": "116912962113353717421",
+        "name": "LDV Parramatta (Owner)",
+        "link": "https://www.google.com/maps/contrib/116912962113353717421"
+    },
+    "complete_address": {
+        "borough": "",
+        "street": "334 Church St",
+        "city": "Granville",
+        "postal_code": "2142",
+        "state": "New South Wales",
+        "country": "AU"
+    },
+    "about": [
+        {
+            "id": "service_options",
+            "name": "Service options",
+            "options": [
+                {
+                    "name": "In-store shopping",
+                    "enabled": true
+                }
+            ]
+        },
+        {
+            "id": "accessibility",
+            "name": "Accessibility",
+            "options": [
+                {
+                    "name": "Wheelchair accessible entrance",
+                    "enabled": true
+                },
+                {
+                    "name": "Wheelchair accessible parking lot",
+                    "enabled": true
+                }
+            ]
+        },
+        {
+            "id": "offerings",
+            "name": "Offerings",
+            "options": [
+                {
+                    "name": "Used goods",
+                    "enabled": true
+                }
+            ]
+        },
+        {
+            "id": "payments",
+            "name": "Payments",
+            "options": [
+                {
+                    "name": "Credit cards",
+                    "enabled": true
+                },
+                {
+                    "name": "Debit cards",
+                    "enabled": true
+                },
+                {
+                    "name": "NFC mobile payments",
+                    "enabled": true
+                }
+            ]
+        }
+    ],
+    "user_reviews": [],
+    "user_reviews_extended": [
+        {
+            "Name": "Harish Chandran",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK5h2Jz3tVJIxvGSTYAWRRpRpsKxgg-JEqhzjw4hy4WyYzlcg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great customer experience, friendly staff. A special thanks to Kimberley (Fleet Manager) for the smooth coordination for vehicle delivery. She took time to explain the features in the new LDV deliver 9. Highly recommend the dealership.",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgMDI8c6PTQ\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2025-4-10"
+        },
+        {
+            "Name": "Tim tam Malouf",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV7o4dygMBpvGKCfxifqaimTMBk_4uXh6Hoa1QOtzS5BWeUjprU=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you to Kimberley and the team at LDV Parramatta for going above and beyond to help us with our purchases of the T60 Ute's for our growing business! We would highly recommend Kimberley for all of your LDV needs 👍",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDHlPjwTg\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-9-12"
+        },
+        {
+            "Name": "Chris Kalifih",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLBc-dBbKzrjLZgE9PCbEFGE0q30eDiwps8jA2qUlSsapMHFA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Probably one of the best motor dealer experiences I have ever had!\n\nI wanted to get the new shape D90 executive, other places told me there was a back order. Came to parramatta LDV and met some of the nicest staff and general manager who offered me his D90 executive that he was driving for the company at an awesome and unbeatable price.\n\nI must say these guys saved me from buying a chery which I'm glad I didn't.\n\nHighly recommend who ever is interested in LDV definitely visit the guys in parramatta.",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgMCAxvuQygE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2025-1-31"
+        },
+        {
+            "Name": "Sua Loloa",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJQywxDCUMTcRmp4v_XEBuOfMRylLRyTWah0LANLuUSjHMUKA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you LDV Parramatta for hooking up this ride. Great Staff, very professional and very helpful. Special mention to Phil and Saad. They made my experience as a first time buyer comfortable and very helpful. Check them out guys!",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDXrbvpXw\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-10-30"
+        },
+        {
+            "Name": "sami mohieldin",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJ1vDuyBPqNC8dzAFLCkaBM3fmZJR_j1hK_af9tAn0-MTfHOA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I recently purchased the LDV T60 Max Luxe, and I couldn't be happier with my choice! The performance is impressive, with a powerful engine that handles both city driving and off-road adventures seamlessly. The interior is spacious and comfortable, equipped with modern technology and user-friendly features. I particularly love the advanced safety features that give me peace of mind on the road.\n\nFuel efficiency is also a pleasant surprise, making it a great option for everyday use. Plus, the value for money is outstanding compared to other brands. Overall, I highly recommend the LDV T60 in any class to anyone in the market for a reliable and versatile ute. Great job, LDV!\n\nAnd a huge shoutout to the sales team and Saad for such a caring and homelike feel and making sure i made the right decision. Make sure you visit the dealership !",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDX6cbQaw\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-10-29"
+        },
+        {
+            "Name": "Bassem Zaynoun",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWqSGuaDan0_noUAPDF7iMey0xMVX2bLnzucBB3YsiAHybMv_Q=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "This has been the worst decision I've made—buying this car and choosing this dealership. The service team has been absolutely hopeless, and above all, rude. My car has been sitting with them for over five weeks, and getting any kind of update is a nightmare. I have to email three to four times just to get a basic response, and all I hear back is, \"We're still waiting for manager approval.\"\nCompletely unacceptable. There is zero accountability, no sense of urgency, and no respect for the customer’s time or money.\n\nTo make matters worse, when I called today in frustration seeking someone at LDV Australia who could help, the response I received was both rude and dismissive. I was told, “You can Google LDV Australia yourself and find the number.” This level of service is not only unprofessional but shows a complete disregard for the customer experience.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Mike Gutier",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJs0QoixikJPaJd5ZAJEzLtspj-8ubR7iWeu8N9wREq1AcNpQ=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "DO NOT PURCHASE ANY LDV.\n\nThis car is terrible, water pump blown at 15k kms. Ignition problems at 20k kms. Service team take 3-4months to replace parts under warranty. My case got escalated to the CEO of Australia and he advised he refuses to provide service. This man should step down and be Fired. I believe this Brand should not be allowed to trade in Australia and should be closed for good. What a terrible product and service!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Haseeb",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIH08t8HxQk7WHqmlZt6ruei-iJETi70uDZYyGNi7vkTcF24g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I am customer with venu @ Ldv parramatta 2 years ago the way he give the service to the people is amazing, we love his hospitality and helping nature.\nI will buy more more vehicles from him and from Ldv parramatta.\nThanks",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "arun bhardwaj",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKY8L1a5uPnSMys6DqIm-NiGjOSfiQkwmKo2xlkfmuS1lMZ4w=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great experience, very friendly staff. Special thanks to Patrick and Kush. They managed to deliver the vehicle on a very short notice with all the paperwork and finances. Highly recommended for all.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Caf Transport",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIfrRVcUz3zqJRIO0YHCmlIucY3NTFPgQpV0zij1T7QIXY2vw=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "One of the worst company i  dealt with I regret buying two EV van’s that costed me more then 250,000 thousand, one of the worst service company, you get problems from no where, reverse camera stop working after 1 day of buying the van I contacted Kimberley who sold us the van’s and she said they will fix it for you on the first service, after going to the first service they blamed us that we damaged the camera , the van got rusted from under from no where. I don’t recommend anyone to purchase these vans or any thing to do with LDV. one of the worst to deal with when theirs problems. Imagine going to the service centre and technician telling you that he will not bother him self looking at the problem. It’s Mind blowing!!!!!!!!!!!!!!!!!  Picture of the  camera below , am not sure how they managed to discover  that we damaged the camera even though no damages are visible. What a joke!!!!!!!",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgMCox5SrBg\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2025-4-20"
+        },
+        {
+            "Name": "Guy “Dingo” Thompson",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV4TgYMqtw7J77aBiqy1V86rs-0TbYXddlNE1sLnnjhKRCUQCDB=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "Bought a brand-new LDV at parramatta late February and needed stuff fixed under warranty and it’s first service at 5000 km, was told by Nima at Parramatta LDV that the first service would be $230 turns out he is a lying piece of shit. Total cost was $460.\n🏆 But the hat go’s off to the team at Homebush service centre for fixing up everything 🥇Thank you",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Parvej Shaikh",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWcaj35vFpHEpyhNY7j4ZdxiCmU49N_KTWUuKx2pWZmgFPVrEyH=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you LDV  Parramatta . My wife and I really appreciate the kindness and helpfulness of all the staff  and a special mention of  Deepika ..she was absolutely outstanding..Highly recommend for her excellent  service while purchasing our MG ZST VIBE recently..many thanks",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Feleti 'Aho",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKRps3mOA6d1KG5reyXzBsaDMhvDd3pF7GoKa4ARnl8gq3vLw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "We recently had the pleasure of working with Patrick and Kush at LDV Parramatta and we cannot recommend them highly enough!\n\nFrom the moment we walked onto the lot, Patrick greeted my husband and I with a warm smile and an impressive level of professionalism that immediately put us at ease.\n\nWhat stood out most was his genuine desire to help us find the perfect vehicle that fit our family’s needs and budget. He took the time to listen to our preferences and offered insightful advice without any pressure. His extensive knowledge of the cars on the lot was evident, as he provided detailed information about the features and benefits of the model we were interested in.\n\nThroughout the entire process, Patrick maintained transparent communication, ensuring we were informed every step of the way. He was patient and answered all our questions, no matter how trivial they seemed.\n\nWe also had the pleasure of working with Kush, Parramatta LDV’s finance broker who truly exceeded our expectations. From the very first interaction, his professionalism was evident. He took the time to understand our financial goals and provided tailored advice that was both insightful and practical.\n\nWhat stood out most was his honesty and thoroughness in explaining complex financial concepts in a way that was easy to grasp. He was always available to answer our questions, no matter how trivial they seemed, which made us feel valued as a client.\n\nHis attention to detail and commitment to finding the best options for us resulted in an outstanding outcome. We felt supported throughout the entire finance process, and his proactive approach ensured that we were informed at every step. We would highly recommend Kush to anyone seeking financial guidance with LDV Parramatta.\n\nBoth Kush and Patrick’s dedication to customer satisfaction was clear. The blend of professionalism, expertise, and exceptional service truly sets them both apart.\n\nIf you're in the market for a vehicle, we highly recommend seeking out Patrick and Kush at LDV Parramatta. Their professionalism, expertise, and friendly demeanor make the car-buying experience enjoyable and stress-free. Thank you, Pat and Kush for making our car-buying journey an outstanding one!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "imran hyder",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXfn_HKyzI3f7-nP2XnvHygeEnzaNGDAmroywwpcb8z2pCMGaT1=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I recently had the pleasure of working with Nimo at LDV Parramatta and I cannot recommend them enough! From the moment I walked into the dealership, Nimo was incredibly welcoming, knowledgeable, and professional. Nimo was very honest and diligent to find me my G10 van with desired model and features like barn doors. He even helped me navigate financing options to find a plan that worked best for my budget.\n\nThe entire experience was seamless, from the test drive to signing the paperwork. I highly recommend working with Nimo at LDV Parramatta.\n\n⭐️⭐️⭐️⭐️⭐️",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "rupesh patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVmnswdXz4_y7biWhxZS5WZcnc1irGRYVuY6skapJp1etUfHoBR=s120-c-rp-mo-ba5-br100",
+            "Rating": 5,
+            "Description": "I like to say Thank you to John Thomas (Sale Consultant) and  Michael Haddad ( Sales Manager ) They made it very easy proccess, within 6 days I got my LDV VAN I can not belive please please if you are looking to buy Van for your business please go for LDV Parramatta. You will get the best deals!! I got very good deal on my purchase. I am realy happy with there service..!!",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICk3fvXhAE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2019-3-31"
+        },
+        {
+            "Name": "chadi hanna",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKPYOUW9u7CF4PrfKCl-ZmTvdodT2F3qlsKNiHpCWyVRyUgKg=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "It's an honour buying from LDV Parramatta. They are very helpful and professional with their work, Just ask for Kim and her team and they will help you all the way 👍",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDH9N7f9gE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-9-13"
+        },
+        {
+            "Name": "arezo akrami",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIx0KajGYBgAvvYy_pU9k-xVfMfVF9wx9fEZM7wA0BP2Jtkmpk=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "We just bought our LDV D90 from LDV Parramatta and we couldn’t be more happier! Muskan and Patrick and all the other staff who we spoke to were amazing and professional. They were really patient with us and helped us throughout. Highly recommend this dealer. Thank you for everything!!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Christy 19",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIO4QkbsBuD0tTBm2UbkXIu5F9MTUSdyrgilveM8drVgZdXRA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Right from ordering the car with venu till  delivering the vehicle. The customer service and follow up was superb and the way he looked after us was really good.\nVery happy to deal with him.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Kayla Diodati",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKSBDuSR5vYFtaQE-t6YNV_cKaU_KelJg4gEh88Qd9oWFhP2Q=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "We purchased our LDV Delivery 9 in 2021 We also purchased extras as you do on new vehicles.\nWe ask for ceramic coating even paid for it. We dropped the van off twice to for the job to be completed. As a company we had to hire a van on both occasions so we could continue our work and both times we left our vehicle there it never got done!\nThey promised they would send someone out to complete the job. We never heard from them.i called on so many occasions over the months and years only to be promised I would get a call back. I never heard back. Customer service is no good.\nI went back a few weeks ago to purchase a new vehicle they were very happy to help me spend my money. I even explained what happened in the past. They said we can transfer the ceramic coating to our new car.\nI did not believe they would follow up with their false promises . I did not want to waste my money on hiring another car or time leaving a vehicle there for a job not to be completed. I went to another dealership and purchased a new vehicle for my business.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sarthak Patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKhPBpOS2vEvvmFk0uvMr30iqvpf6ahRwrdzJcz8Agk3N48Vw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I had a fantastic experience at the LDV showroom at Parramatta! Venu was incredibly knowledgeable and helped me to find the perfect van for my needs. Muskan was equally impressive, guiding me through the finance approval process with ease. Their professionalism and support made the entire experience smooth and enjoyable. Highly recommend this team!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Maha Ladkani",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLrulRS9N5rX-9ZLrfiM922Ue31ph-IbCrI7ejgIc6byYrRWw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I would like to express my gratitude to Venu for his assistance in purchasing my van. Additionally, I appreciate the helpfulness of everyone involved, thank you all.",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICXw4jC6gE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-10-19"
+        },
+        {
+            "Name": "georgina francis",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKZcTa6UoHvHpFAsmbi55xELnDQRUF3BcTaZL0sUsPhIg_tEA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Can confidently say this has been the best service by far that we have received from a dealership! Saad from the sales team who looked after my fiancé and I in helping us find the perfect vehicle definitely exceeded our expectation. Very friendly and would go above and beyond and could tell that he was genuinely being honest and not just wanted to sell us the vehicle and make money.  The rest of the team were very friendly taking the time to come and have a chat. We have the LDV T60 Max luxe and honestly the value is amazing compared to other brands. Shoutout to Muskan for the help! Be sure to visit this dealership😁🤩",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "jndk",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXrE9b-26UBLaAX3RYb9StYtH8iX5D-dUj6KhTVaCcJO3oo2aQA=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Dealt with Michael H at LDV Parramatta. I was adamant on a blue G10 Executive. He knew the date I had to part with my previous vehicle. When my blue G10 was not ready, he was kind enough to loan me another G10 until my vehicle arrived. Due to issues with customs, my vehicle was sent back to Asia causing unforeseen delays. Being adamant about the blue, Michael rang other dealers around the country and ended up sourcing my blue G10 from Western Australia. By the time we received our G10, we'd already had the loan vehicle for several weeks at no cost. Michael constantly kept me up to date with phone calls, emails and SMS's. A true professional salesman. This is what you call customer service. Highly recommend LDV Parramatta to anyone in the market for an LDV.",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICkupjbcA\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2019-2-26"
+        },
+        {
+            "Name": "Bill Omar",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIpSNa2LotzIU7KQeAd4YmGmbZUt8rot0_ypof1Cs_Ni46O=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Kim was wonderful through the whole process was easy and positive to work with definitely the best in the business... also a thank you to Muskan who was great help",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICn8drY_AE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-9-27"
+        },
+        {
+            "Name": "Dharsha",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXH_mRoo2IyaPoH5qOJ0uUSJyPesgP2LnfQfoUR1RnjnDJ-snvx=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you so much venu anna for providing us the good service and taking care of us in everything.\nEight from ordering to delivering the vehicle, we are very happy with service.\nI recommend to meet Venu Anna and am sure he will look after you.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Leah Delacruz",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK0pMTXj7h6BZDcJdhDppsZu7wvrKLRG1PSMo-M6xcS4nMdAA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you LDV Parramatta. My husband and I really appreciate the kindness and helpfulness of all the staff specially Nima and Kush. Highly recommend them for their excellent and outstanding service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "khushbu prajapati",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXeyBMPNAOV8KvZTFM0SDArrtj7_FrtXISgMhqw8PIYBORstXLxkw=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "That's really frustrating! I bought the LDV D90 last year because it had great features and was spacious. But before my first service, a part on the back side came out. During the first service, I mentioned the issue to the service provider, and they said they would organize the car part for me. I was expecting a call, but they never got back to me. After a few months, I called and asked about the part, and they said they had received it. Such bad service!\n\nYesterday, when I booked my car to get the part fixed, they told me I had to keep my car there for the whole day. They had initially said it would only take an hour. I couldn't stay the whole day because I had no other way to get home. At the service center, a person named Kris said they would call and book my car for the part fix. But yesterday passed, and I haven't received any call or message from the service center.\n\nI don't think I should recommend LDV to anyone else. If the service center treats existing customers like this, I wonder how they would serve new customers. It's disappointing.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "SilverX Music Machine",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWAei4b04gy6zWSNAyjIZgIBxbdAE5K1lDx8RDWTBgXMDjBD1A=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Vanu was the sale agent and he was really amazing in all terms of communication and the entire process he was accountable and accessible at all times I needed help from him even out of his business hours. All in all it has been a very marvelous experience with him and the LDV parramatta. I am very happy and hopeful I’ll bring more customers",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Stephen Zahr",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjW8sAp_NHaGwkYymzy2gFWabRgH8G-9qytX368ochUxQzQrMP65=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "Usually I try to only give good feedback to good establishments , however I could not help but need to place a review on this awful dealership and service. LDV should take note of this dealership. They were genuinely uninterested in Dealing with customers.  Very rude  to top it off.  I went in  to make a purchase .\n\nI then went to LDV Five Dock, and what a delight  and difference they were.   Nick at five doc was absolutely great .  I literally purchased the car from them within 30 mins .\n\nBuy your LDV.  Just not from LDV Parramatta",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "CF Painting",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocL7EAbNxyxvvLaJdpNT6mJ-RepfdOhqPEYEUkAVYLYFj0SxNQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Love this woman, best service in Australia!\n\nOutstanding vehicle\nThank you Kimi for your help!",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICXqenafg\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-10-18"
+        },
+        {
+            "Name": "James Peter Keech",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLfwerc2n1p5_mM2ifrFGrlYJKGDjs2ocVK3UQt7oNEHnQ_Zw=s120-c-rp-mo-ba4-br100",
+            "Rating": 5,
+            "Description": "Nima waa great to deal with, best service out of all LDV dealers in the area",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "B",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIYv4h0nc8P2MufGJqHB22HC9LUUEy9dnHaXllotP11dFUQQg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great experience, Kim went above and beyond to meet all of our needs and more !",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICv1fD0Zw\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-12-13"
+        },
+        {
+            "Name": "Vasudewan Nandan",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU8oOEE-JuDPPceVY1dBvbtL98muVyLCiZj0cxmgbStqqelBpx3cA=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "EVENTS ON 23RD JULY 2024! Unhappy  customer torches showroom. Shows the level of service from franchisors and management. Loose car salesmen getting away with  daylighting robbery to hard-working Australians. They pushed people into financial stress and shake every penny out of them. All vehicles assesed always breach warranty  due to wrong fuel being used. If you see how warranties have been declined on these scammers they would be hit with a class action. Sad for the customer that has been pushed to the limit and has taken matters to the extreme. 24/07/2024. Marketing team responds within hours of a review to say I'm not a client. Shows the diligence of staff working  at LDV. High level of work ethics. I wonder how many vehicles were sold under company  names.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sujendra Singh",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKes23L0rsb8EKu6mTl5j-6HCYH76zQp2Hf1hp5yFeq6_SOYg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very happy with AMIR best service delivery on time\nthanks AMIR for the service",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgICv36T-gQE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-12-16"
+        },
+        {
+            "Name": "Fiona",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJtRwpCdd3D4rJQpJepLprqZ3cWj1kMWrY3VQuICjxjJ1dPog=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "The staff at LDV Parramatta really helpful and not pushy at all. Saad was great! He was very informative and knew his stuff, any questions he had the answers. He made the whole process of buying a new car a breeze. From the sales team to the finance team, they were all really helpful. Thanks again, Fady and I are really happy with our purchase.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Vijayanath Thuraisingam (VJ)",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWVMKn1rBqM5mct0Ak375PMXAVUaw51G-bslza-ep_qcjNc9oE=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Guys at the parramatta LDV are working hard and doing a great job, I needed a vehicle urgently and within 2 days I had the keys for my LDV g10. Finance lady, sales person, receptionist and the managers went above and beyond. I felt like customer’s satisfaction was their priority . I hope every customers have the same experience or even better experience than I had. I would go back again.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "David Sackie",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWzbfIs8uf4jNO7OqhghrOaEde2FdjCRHcIe6HkLdgiQN3wFGt4=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great reception, great vibes very friendly staff and helpful, will recommend to families and friends anytime.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Miranda Lu",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIAIH5tZzGHa4vKHl0RlGVxiaIH1vtT2Gfcoye00iZUj_TlBg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Deepika was incredibly knowledgeable, patient and supportive in helping us choose a car. We had a great experience thanks to her professional attitude. Definitely recommend her to reach out to!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Krunal Patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXw58HCp4zg6bj7KBq7gpTXgxslli19fEdIDaY1KGXZAKtfeeHb=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I had a really good experience at LDV Parramatta. Recently purchase LDV D90. Venu was really helpful with everything. He explained everything in detail and answer/cleared all our doubts/questions. He actually\ndid a fantastic job for me  and helped us in getting our car quicker than expected. I would recommend anyone wanting a car and wanting to deal with nice people at the same time.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Gagan Singla",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK5SeewyO_VtQCnP0Dpqe6tiTeXE1jZX5UuAFq784d5vNcu3Q=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I recently bought my D90 from this place.\nIt was a great experience. The staff, especially Venugopal was very supportive through the whole process. I really loved the way he went about his business. He even went out of his way to help me at one stage. And lastly the vehicle arrived before the delivery date.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Malath",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKO1KfHgNqe1T-3e7CikG5kCGLDemn1-Uy2BQrVrC32mXVfWg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I would like to wholeheartedly thank James and John from LDV Parramatta for their extraordinary service. John was extremely friendly and helpful in finding me the correct vehicle with the colour and specs I was after. James was also amazing and financing was made a breeze. John pushed very hard to have my car ready as soon as possible while James obtained the best possible deal for finance and insurance. Very satisfied with the service and would 110% recommend John and James from LDV Parramatta to anyone looking at buying an LDV. Thank you guys!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Marie Tupaea",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXTnOomr1Ju7dyRriESdHS3cMfaooFKOvp5k26eeU-QZ7I9epROSw=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "Myself \u0026 my husband purchased a Mifa Mode a couple of weeks  ago and unfortunately not a good experience all round. From the moment we walked into the dealer to look at the car to when we picked up the car. The salesman we dealt with from beginning to end did not communicate well. Unfortunately I would not recommend LDV parramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sue McArthur",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocILDyZDxm1lyLxXHn-hnAXFRhu21cLRIZq__t_gvcly2IlQYh-2=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Went in to see John about a new vehicle we saw on car sales ended up purchasing same day and picking up 48 hours later!\nJohn was fantastic from start to finish!\nHe kept to his promises and his communication was exactly what i would expect.\nAfter dealing with another company since November who made promises and lacked the communication skills to keep us updated John was a breath of fresh air, only wish we had seen him first and not wasted 3 months waiting for a car that was never delivered.\n\nThanks to John and the team for a great experience",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "ning tong",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKM1XY0AJ1q9Mgf9bXdh7pIZphoYWX3L17AErVOWhj2qVxEMA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great car, Best team!\nThanks Saad and Kim, I am greatful for everything you done for me and I would recommand this car dealership to all my friends!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ram chandra GNAWALI",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIcJn5OM13cDON-IPwkFjdzM4abuK8IUJcItdW4OEW-iwRtHg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thank you Nima for your professional advice and helping me throughout purchasing journey LDV t60 luxe . Loved driving it!!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "arlene deguzman",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJrxGU__wSioHj7bLAWfNxuFt1VGGDzPU7Y57YTIuoNJipguw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "It was a great experience. The staff are happy to help especially Venugopal was very supportive through the whole process. I really loved the way he went about his business. And the vehicle arrived 5 weeks earlier the delivery date.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Tav Roy",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXyVoBFkf3mjSoPHKhT6uTYAwoqRS4tWwHWosz61OVr0H2hA5Wp=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Please do yourself a favour and avoid this dealership, and company at all costs. I bought a brand new vehicle at the end of 2021 and had a transmission failure one year in. It took over 4 months to repair, in addition to a plethora of other issues. The dealership and LDV has underdelivered, lied, and has not offered to keep a very disappointed customer. Please stick with a reliable brand and save your money and the headache you will have with this company.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Kade Edwards",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKo6JDbWk7xWELZvKFnj4ofnzHQoADkfZQA3boNzF0vSRTorA=s120-c-rp-mo-ba3-br100",
+            "Rating": 1,
+            "Description": "Put a refundable deposit down on a new car in April 2023 and still haven't heard back after multiple attempts of contact. Salesperson was good, but disappointing management. Don't put a deposit down unless you're serious or want to lose your money. They will like be a classic car salesperson and guilt you to pay a deposit to lock in the last car, buy a Toyota instead.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Nik",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjW9JtYERDdTVLGImNeFBYMODA0Wm547QfGCzaFY7Nnn4wQokai1Bw=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "Great experience dealing with salesperson Nizar. Genuine \u0026 professional. Got a good deal on an MG3. Even picked us up in courtesy vehicle to take delivery. Highly recommend this dealership.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Eddy David",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLT2u3gXExLOjyWlaXTbNDZSGqVC1O1urYp3WffaA9zmLAFJA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "The staff at LDV Parramatta in particular Mr Venu, was was helpful, professional and great to deal with. I purchased a new LDV T60 Luxe and the purchase and all of the experience was a breeze. Venu was great to deal with. He knew vehicles, was very helpful and was not pushy at all. Was happy to answer questions and happy to assist in organizing finances etc.\nWe came to a minor hurdle and Venu was quick on rectifying everything to ensure I continued to have a pleasant experience.\n\nI very highly recommend you reach out to Venu for your next vehicle purchase and highly recommend LDV Parramatta.\n\nI purchase a new vehicle every 2 or 3 years and will definitely go back to this dealership and have already recommended Venu and LDV Parramatta to family and friends.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Glenn Dicky",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocI2oLrjRqvE-li-A696Fsy2I7AinUCM8WKtQU19AkurMCZOZg=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Had an air conditioner belt replaced on December 20,  2023. Paid over $240.00.\nLess than 4 months later,April 17, 2024 the belt snapped again. Expected LDV Paramatta to replace it under their warranty but was told warranty does not cover “consumables”.\nVery disappointed as I would expect a belt to last longer than 4 months. To me either the product was faulty or it was not installed correctly.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Gagan Singla",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJO-_wfSXjg8zjvV4qgqONPbX0luoeO3_diszfFGW6qBTX35w=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "I have reviewed early after buying my LDV and rated them 5 stars but I think I spoke too soon.\nDoesn’t not deserve even 1 star. Car display unit blacked out and firstly I waited 4 weeks to be booked in and when they had the car for the whole day they could not fix it. Needed to keep the car overnight or rebook it which is again 3 weeks wait. Out of the world service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Adam Spiteri",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKiLPaS1RofZRczl1fELRqrQ9a2QKsCeC-g3Dn4lsvGQL85hw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I went to LDV Parramatta and when I First saw the dealership I was impressed with quality of the dealership, staff, and all the vehicles they had there. the place was well presented. Saad had a very nice approach to me to see what I needed and was very helpful to assist to show me the D90 diesel that I had inquired about. he showed me all the features of the D90 and all the safety features it had too. he also mentioned all the latest upgraded on the newest model. I would like to have a longer test drive to be honest, to show the capability of the D90.\nSaad was really great to talk to and he helped me every step of the way, sorting out extras like floor mats, colour and a tow-bar for a great price.\nhe then took me to the other staff to sort out extras like paint protection and other offers the dealership offer which was a great service the have, the had a offer on and were more than happy to let me know to save me a bit more on the perchance which was nice.\npicking up the car on the day was amazing, Saad went through everything top to bottom of the D90 showing me all the added extras of the new model, I was so impressed with, and very happy with my decision on buying the D90, especially from Saad.\n\nAfter driving it for almost two weeks I know I have made an amazing purchase and really love driving the D90. it has so much style, comfort, power and plenty for space for my family.\n\nThank you so much LDV and Saad for everything.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Suresh",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV_SAD4JL0TH6g7ziRVvn0Im_rbWmkwvdTYNd4G1kByXAsbdJAf=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "The service center(Service booking desk and spare parts) never picks the phone call, always waiting time more than an hour. I never ever recommend LDV deliver 9 vans for new buyers, Spare parts are very hard to get on time. you should wait.14 days mostly. very poor quality in products/customer service and responsibilities.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Dolly Boufarraa",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIfV_fxgdy49WtKjcWaS4iJmMYguY8-zDoHrzdZ_LUW_osVlw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Amazing customer service and we bought a Ute by Venue he was very nice and respectful and he was very honest, all the customer service there they are very friendly and caring.\nAnd also when we were going to get the Ute Saad was very nice and he really really helped us. I really recommend going to LDV parramatta I wish I can put more than 5 star that is how amazing they are.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Robert Pellegriti",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVQwcKBfQlP6nMTd8Vry7aVq-DYeVogfJnMGoe6kfYj1mjNYJkH=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "I purchased a second hand vehicle from Nizar Budmilic and was very impressed with his customer service and professionalism. I had been looking for a car and had visited several car dealerships and was totally over the whole process. Nizar was really easy to deal with - no pushy tactics or insults to my really old vehicle I was trading in - just positive discussion around negotiation about what was possible. I was unable to get to the yard and Nizar drove the car over to my place at short notice. For my next vehicle, I will definitely be calling Nizar.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Harry Kahla",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLt1hTyo--UpT1W1xTGQU7VXt9d7UyypzMRmcs3Ays31v2WWQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu was expectional and unbelievable with his knowledge and service. I am happy with his process and kind shown in.\nI am planning another vehicle soon. I recommend venu @ldv Parramatta. He will looking after you for sure.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "audio addiction",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKxedZU7_s-w4__1nVyrZEzqsfnRySbdsUtQPT-l35Cn_pNbA=s120-c-rp-mo-ba3-br100",
+            "Rating": 1,
+            "Description": "Read some \"real\" reviews after seeing a bloke start a fire in the shop, people don't do stuff like this for no reason! I hope there's an investigation on this joint.\n\nHardcore lemon laws need to be introduced asap to stop these dodgy dealers pushing people over the edge. I hope the guy today is ok and gets off lightly.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "michael sayour",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLiBhJDknN4-kIlN4wnXmY1onETEBVu8hbHGmbAD7MZfI05_g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Saad gave me an amazing experience throughout the whole process from the point of meeting him to the delivery of my vehicle. I highly recommend buying an LDV from Saad.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "A N",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWoQ9PNI077wH3kf7vaERo66xbYCnpuwXLQrBvNMauSCi4cXxU2=s120-c-rp-mo-ba5-br100",
+            "Rating": 1,
+            "Description": "Would NOT recommend. Bought a car and after 6 months took it to the mechanics due to multiple issues which were not disclosed and realised that there were parts which were rusted and an old crack in the coolant area. It says on the contract that the car is fully serviced but clearly not and they’re happy to sell faulty car.\nThe locks to the doors also were faulty and contacted them multiple times due to the “warranty” they offered but their response was “It’s not our issue, you’ve got to ask our service department”. We then contacted them and they said it’s the sales person’s responsibility.\nHonestly useless… would never buy from them again.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Manjunath Hukkeri (Sydney)",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVbWp6s9tVDwCSEYlXYvhJqJdG2WvPI2awPEU6cVT5HEqq6N0HD=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I recently bought LDV D90 car from LDV Parramatta . The team at LDV Paramatta (especially Saad) were amazing.  Saad was very patient , he showed me car options to consider and explain very well in details, delivered as promised.. would definitely recommend LDV Parramatta to everyone!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Vicky Fikis",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXkVaETZ58DJ4N3mqd7YsnZFgn1ESM3PkhFmF2_pwJniB0O7iyIZQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "7.7.23 Just picked up our brand new LDV g10+ van with all the additional add ons we requested. Very happy with everything.\nI would personally like to thank John for being the person he is.\n1. Friendly 2.Understanding 3. Knowledgeable 4.Patient.... BUT most of all , I really appreciate his HONESTY.\nJohn was there for us from start to finish. He was available whenever we needed him and always kept us updated with the progress.\nAt this point, I would also like to thank Oksana, who finalised all the paper work and especially for organising insurance for the van , so we could drive home stress free.\nOverall, our experience at LDV PARRAMATTA was great! Staff and the appearance of the site were very welcoming. Thank you. Vicky",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Siva Kandasamy",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKyVBQsAIowAP67i9tleg4-knIO2xbeFZCK-fKg2avdMA5K2g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great experience, venu is very helpful from the day one to booking the order, within 3 days I received my vehicle. The commitment he gave was fulfilled in time also the other team muskan from finance was very easy and fast and Nina predelivery coodinator is very helpful.\nOverall the parramatta are very helpful and great customer service.\nThanks",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Michael Maran",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJa3t-ErTFcNr9RUWApujiIiC5OVaf7AZbzU9gJIdTojYbmOA=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "What do you hope to achieve when buying a new vehicle.\n1. A good deal\n2. A stream lined hassle free experience\n3. Good communication throughout the entire process\nSaad Kanawati and the team at LDV Parramatta have achieved all that and more.\nI highly recommend Saad Kanawati and the team at LDV Parramatta for exceeding my expectations and more.\nSaad is an affable, happy-go-lucky guy that loves to listen and help. I'm confident he won't let you down. I know you'll be as impressed as I am.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Zaya Akhlaq",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJdaU4JzqF83Nv13zJNyNso8BEXbkbK86AUPiUB4KCi5lAlnA=s120-c-rp-mo-ba4-br100",
+            "Rating": 5,
+            "Description": "It was an amazing experience with LDV Parramatta while looking for Van for my business\nI would like to personally thanks to John who made this transaction very smoothly.\nI gave 7 ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ to John for his service\nHighly appreciated.\nLooking forward to get next Van from you soon.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Selina Smyth",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXu324jom01BwBjye1wSKFrCP-iV36cxlYjmKMcTii8tfKYJmE=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "We highly recommend LDV Parramatta \u0026 sales person Saad.\n\nWe recently purchased a van for our business from Saad!\n\nSaad provided excellent customer service, he listened to our needs and wants and showed us all options available to us. We will be back to purchase more vehicles from Saad.\n\nRemember to ask for Saad when you arrive at LDV Parramatta, he will take care of you.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Damon Wilkinson",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKOsDoVeVC_nxNNnKinn31FG1ISy6GvwSuq7bCPRdiCcRvF-A=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Lovely team at LDV parramatta! Making the car purchase smooth and easy",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDduo_mrAE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-2-22"
+        },
+        {
+            "Name": "Andrew B",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIVNrq1EHgKVmtcg0IcVhy33J9_p3OwDvETwQIIu2Fh3ogwkg=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "I bought a vehicle from here a few months ago. The sales rep who pushed hard for the sale then got the funds. Once they received the cash they could not wait to get me out the door. I asked numerous times for the transfer rego slip  that you  normally get and I was brushed off numerous times. I eventually got a fine from the motor registry for not doing this. The sales rep then blamed even though I attempted to try and rectify this early on. Their after care is very poor and they only look for the sale and push you out once they have their funds. I would give zero stars if I could as it was really poor service after 30 years of buying cars from other places. I would avoid this place, unless you are willing to take the risk of poor after market assistance.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Avic Belleza",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJcDN4f7YkP-X6704zZwdY9lOMueKMgGHhv0k2aIlEJ6OjKNA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Emerald is a very nice, accomodating and helpful person. He would do everything for a client to achieve the dreams of having a brand new car despite circumstances.\nHe makes dealership easy to understand and make sure it will be a quick purchase.\nEmerald of Ldv parramatta in granville made us feel that we are already a family.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Andre Nohra",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJt_hPokyB7cCWbWbjhcxSHnjYEsYs_7VyRY8L7V4WIpExSeg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Salesman John was an absolute pleasure to work with during the duration of purchasing and finalising delivery. Couldn't have asked for a better salesman to help me out during the process of purchasing a new car. Highly recommend him in future",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ashton Lavaring",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXo9Shl968fbGMxtbxB0xc2g-XadHNIx98PgIhgH7HmAnN0dkCa=s120-c-rp-mo-ba4-br100",
+            "Rating": 5,
+            "Description": "Although I didn't end up buying my ute here, they were very helpful in making my decision. I did give 5 stars because of the service I received at the LDV service center at Rosehill. They did a great job in figuring out the problems, ordering and replacing parts and the speed! I have had a lot of experience with other car manufactures service centers and LDV has been the best experience thus far.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ankitkumar Patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKYRsPT_TgsEAITl-iu61V-7msvU91PKR2v4RUcngfCa8KU=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "I gave LDV five stars right away after purchasing it, however I believe I spoke too soon. Does not even deserve one star. WOULD NOT RECOMMEND ANYONE TO BUY A LDV VEHICLE. After 3 months of buying a brand new LDV, the van brokedown due to engine problem. I called the service department many times but they still didn’t slove my problem and it’s been 3 weeks. I’m still waiting and cause of that I’m having a great loss in my business.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Yazan Sawaqed",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKO0EnU22loIakKu70nzL81fqzbF2DfkfvVLsVH4tBXgI-Wmw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "All staff at the dealership are awesome and professional. Good deals and they are lovely cars at the showroom. Enjoyed the time there and thanks for the new car.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Teresa Toca",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV7HAA7gX_5bzkbm_W75Ise8-0S2g4VBMqKmL4MEJhgJOwNKafXzQ=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "I would like to say big thank you to LDV Team for looking after us. Specially to James and Emerald who helped with our LDV UTE. They are friendly and very honest with their recommendations. They are not only to sell you a car but to give you the best quality and affordable car that fit's your budget. Need a UTE? Just call them and they won't dissappoint you. Good job! See you in our next car service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Philippa",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIqZ7kVaNaO_FSlsmAgfTmVAgIhrwRnfSDaVP2-bzDib1elQQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Recently bought my car from the team at parramatta auto centre, I wish I could give them more than 5 stars.\n\nIt's the first car I've ever bought (myself) and they made me feel so comfortable and helped me understand the whole process from start to finish!!\n\nThank you for the wonderful experience, I will definitely be coming back for all my servicing needs xx",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Mehdi Nouri",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUjXI9ie3rZqcB3WjtxJlhTa5v38ySLsqj2UZ-zhggsNMC7kYfp=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Terrible service, got a brand new LDV Ute but the headlight not working. Finally, after one month book a service,waste my time whole day then they said they donot have the part to fix. Been waiting another month to get the part. Tried to book a service again to fix headlight all booked for one month and I asked them to send the part to another dealership but they return the part without even telling me. So brand new car without headlight not fixed for three month, Waste two whole day in dealership and still not going to be fixed soon.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sriman ch",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLgMYOcY2W_XVgbqeka0cUpDb04UOf05lNq5YO6jyNclYW3ZA=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "I had a great experience buying my LDV D90. Right from my visit to car delivery they have looked after me very well.\n\nLove how they treat customers even after sales.\n\nSpecial thanks to Venu Gopal and his team for the seamless transaction. Highly recommend this place.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Omar Sawan",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJJHtUX-4sO-ipSAD721kuSCHCGOlWUvg1tOVe48JxQfjIRzg=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Just picked up my D90; fantastic assistance by John , was a very easy and simple transaction, felt more comfortable by LDV parramatta than I did audi/ bmw. Absolutely love the car cannot compare it to anything else with value for money. Definitely happy customer and now a long term one. Will be back in a few years.\nA ++++++",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Joanne Argyrou",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIwSNyezgmtV0PcpZ7C3d6hx-AoWg2nZYsOPKkmi_-lVFMUHA=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "I highly recommend the service team at LDV Parramatta. I've had my car serviced there twice now and I wouldn't go anywhere else. The customer service was impeccable. They went above and beyond and made sure I was happy. They were so understanding, and even changed my wipers for me while I sat in the car with my sleeping bubba!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Vimal P",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXWfNGZSJziZXcfhuxJeJybZlDri3vHZ-Abz2u_0Wwjap6thkU=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Just purchased my first car, an MG3 Core. Was a pleasure dealing with the friendly team. A definite 5 star for their excellent customer service. Thanks to Terry, Jai and Daniel for all the support and help.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Gabriel Bar",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLqj9W7fKPA47tkbVwUj83FeE9IRDWh7kjjx9w94ZJco7Aavg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Ldv Parramatta dealership was a great experience with the car sales team. Saad was great at organising and delivering the car that i wanted. Great ute t 60 max. And thanks, Saad.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "layla vidgen",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLeg8r_PF6zP1IcW58XwFaM7lpgOmJQXFRH8a3G8tYm7uWnEA=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "REPOST WITH REGO. should probs fix this guys car",
+            "Images": [
+                "www.google.com/local/imagery/report/?cb_client=maps_sv.tactile\u0026image_key=!1e10!2sCIHM0ogKEICAgIDX_Jy5owE\u0026fid=0x0:0xa77ac73686990ce8"
+            ],
+            "When": "2024-10-25"
+        },
+        {
+            "Name": "Kathy Criniti",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUTHXJfXeiEX5Rx9gT7Gssb3nixBlBcQnV0krbhh88EaGIttwU=s120-c-rp-mo-ba3-br100",
+            "Rating": 1,
+            "Description": "Couldn’t get a hold of them for well over 1 month (almost 2) then when we did had to wait 1 month for the initial service. Utility used for work and weekend coastal home. Went over kms and will not service without charging. So much more to say but could you waste the energy on pathetic service. I will say though when asked to escalate the issue ti a senior the young lady told us she was the only point of call. Dare I say this isn’t true and I would be concerned if there was no leadership. Protect your property DO NOT USE LDV PARRAMATTA. so many better options. Can’t give a zero, though I would if I could",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Anita Yum",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIVm1dzE975-Hft2xkccxconWN9iLxyckWwls3gTlqjq4Hxzw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I would like to say big thank you to LDV Parramatta!!!!! Excellent sales John Thomas, very professional, helpful and honest. Excellent finance team Oksana, make a smooth approval for our finance. Great work guys:) I would highly recommend LDV Parramatta.\nAnita \u0026 Anthony",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "sandeep kamboj",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLSSaPj3jTPKWOEV8etiBYeSx9INqIMHAmnQBb-kQYnsh8uOw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Happy with the vehicle and service, Venu helped with all the information and delivered the vehicle before estimated delivery. He is excellent in dealing with customer and excellent team around. Very happy for it. I recommend everyone to buy from luv parramatta and meet Venu.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Modasser Raza",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIVuVVSfjgoHDj__EI7LWTunFkM9gBmPe_NitP5xzyu8GLMHR39=s120-c-rp-mo-ba4-br100",
+            "Rating": 4,
+            "Description": "below mentioned refund issue was resolved , i am changing the review stars.\nMr Venugopal Vasagouni,  If you are providing wrong information by mistake, better to accept the mistake.\n\nHi Team,\nI have contacted you guys multiple times, even sent the email to Ian Mason, Dealer Principal, The manager Jai Patial, No one is taking the complain seriously. no one bothered to question Mr Venugopal Vasagouni why he provided wrong information and then lied he never provided that information.\n\nwe had a worst experience with sales person Venugopal Vasagouni at LDV Parramatta.\nOn the day of car purchase , we confirmed with him twice about the cancellation policy, he providee wrong information that cancellation charges will be 5% of the deposit money and now he is declining that he did not give this information. even he agreed over the phone that he has given same wrong information to few other customers and he has learnt from his mistake. but infront of his manager jai, he completely lied and started saying he did not give this information. what a disgrace guys.\n\nAnd now we are fighing to get our money back.\nVery bad experience, dodgy, and not reliable at all.\n\nI am complaining to LDV Head office now, but honestly speaking , i have no more trust in the word LDV customer service. and i will speak out loud on Social Media/LDV groups about my bad experience with LDV Parramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Harry Sandhu",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJYZXTRyn2AreRwmNe5zzs3ccnaCNg4_f3ND-FtUS9j4vxIpw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Excellent customer service and happy with dealing venu ,good knowledge and vehicle delivered within time.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "bradley riley",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIx3MIV8z-wUtHdhyzDR5aRZDeN8xsgiBmkSSjPWLmdo4H9Sw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "The  service from Daniel was great he returned my phone calls promptly and he had the extras fitted to my wishes. I have recommended  your business to many people in my area. Thank you for the great service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "J Webster",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKnOats1aJK4FDLr6g6CshmwfUFOrmerCd3nNOApqRKRY-WsA=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Ian Mason the dealer principal is an amazing man,\nI'm a very sick person with heart disease so stress of buying a car could of been confronting. Ian and his team was so friendly supportive and couldn't do enough for me I live interstate I purchased a SsangYong Korando SUV daily Ian would speak to either myself or my carer as the process went through. From the initial deposit to window tinting and detailing of the car. Then Ian guided me through transporting the car to my home address after this point Ian and his team still kept contact with myself asking me was I happy with the SUV and was there anything else I need it done I highly recommend this dealership.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Wendy Li",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK3zVV_iZ-TCOzhGmCcuk7r67f_dB5KJ6WYDpYhyubTQ0td6Q=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Service centre was not helpful at all, have been dealing with Craig for a warranty job for my G10 , had to ring up numerous times to just lock in a drop off date, then was told no parts had to bring the car back. Finally was able to drop off the car again for repair that was after me chasing up and making numerous phone calls. It’s not over yet, went there to pick up the car on the promised date then was told again it’s not ready!!  Never mind, called up and given a new pick up date, guess what? Not ready again!! It has wasted my time my friends time to come all the way to the service centre so many times and yet returned empty handed, not to mention the time off work as well, all of these were just because of they can’t give honest information or a simple phone call to advise me in advance! My car is still sitting in the service centre right now, I need this nightmare to be sorted out ASAP!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "YJ Sun",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKzMGpd_1aonKDcZ4rcvTr35ijR-0Tyli1lD0XKrSuHsi2XCA=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "I bought a G10 at Ldv parramatta.  However, there have been many problems and have not been resolved yet.\n\n1. I bought a new car, but I didn't get the logbook.\n\n2. I bought a new car, but I didn't get a spare key.\n\n3. When I bought a car, I added 3 extra seats, but Lego has 2 seats.\n\n4. When I called the dealer, He made excuses saying it wasn't his fault.\n\n5. dealer told me  “It will solve everything when I go to the service center. “\n\nHowever, there is no reservation.  Lego can not change.\n6. When I called the dealer, it was the responsibility of the service center, not his responsibility.\n\n7. When I said that I didn't get the logbook and spare key, I said I'd check it, and there was no contact.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Robert Pitt",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXGgiRbVivQskfCC15GfsQ8KVJcEbkXsnDKQPB9fYmyPbBeNA0=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I can't recommend LDV Granville/ Parramatta  high enough. After dealing with John, ordering my T60 pro max and wanting all the extras put on, I'm very happy. Thankyou.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Dan McCarthy",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXIL0uMil5sGuNKmL5hawJwmwhpM1eXAdv7FIGMZn-XD-TBqNMx=s120-c-rp-mo-ba4-br100",
+            "Rating": 4,
+            "Description": "Excellent service! Bloody hard street to get into and parking may be a challenge. Overall a very good dealership and seamless buying process.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Kelly Evans",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLXH10bJ46iM3Ic7bIhH13iOsUhsXstBvlTa3YYVGTxMqx1ew=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I needed to purchase a car remotely. Nizar has very helpful and showed me through the car via facetime,  pointing out all the details and showing me though the log book. He also organised for the car to be transported to me. Easy communication and efficient, friendly service",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "ibrahim kabbout",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKmeAdMLfIkjUCkL242z8aroNPFKy_DbUmyzFht3B7vijsE1w=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Purchased the v80 van. John made the experience smooth. John was very helpful and professional through the whole sale process. 10/10",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Paul Regis",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV-H0l-7ziDXp6nio7YQZykxf5Sx3xM4Wv8313lkHsYk0xvL3_XTw=s120-c-rp-mo-ba4-br100",
+            "Rating": 2,
+            "Description": "The cars are well priced but it's hard to figure out the dealer. The gentleman I spoke was polite answered my questions, except 2 where he told me to go and find them out on the internet. He seemed to think that the car being cheap is enough of a sales strategy to remove the need for any other kind of sales approach. And that surely does LDV a disservice. \"Buy the car, its cheap\" is probably not a sales line that works on everyone.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "inayat-ur rehman mohmand",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWhY3ZJNuWpwmgPnGvVBEULPZjGVPHoleDd8vPHHNbzucPbIgw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu is a great person, I found him so kindly and friendly. Am appreciate it and wish him best of luck.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "brett awada",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU-4hNTxvov-VapE7PHayLf4uT8gwPBv2JkPRb3hrYodU3VjEsH=s120-c-rp-mo-br100",
+            "Rating": 4,
+            "Description": "I went in on Wednesday to enquire about the new ute, I was dealing with John Thomas. He was very helpful and went out of his way to explain everything and was never in a rush even though it was busy there.\nThanks Jhon.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Yuki Neko",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIC1MSoZtj7GH6-g6Bp_djm9mdHqwf2bRFZz7FwoN54COyDjg=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "They are the worst car dealership to ever exist !!! The sales people and finance team are very rude but most importantly they have stolen $6000 dollars from me and they ended up keeping the remaining balance of my loan… STAY AWAY at all cost I am reporting these people to fair trading and ombudsman",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Phil Gough",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocL9Zb3Wcur4flwaPj9lF-Buw7eHWErXFo2HrQVf0s0ctaxXhw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Cant recommend Mike and the team here at LDV Parramatta enough. If I could give them 10 stars I would. They always give first class service and are very prompt in getting back to me. Thankyou guys and keep up the great work!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Samin Ramay",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjX1nJMVHUbYX8zIbbD0H1CcNmz6NPJlGezXp8IsUBETbwpXLRja=s120-c-rp-mo-br100",
+            "Rating": 4,
+            "Description": "Big thank you to LDV Team for looking after me they make my car purchase so smooth and enjoyable\n\nLittle bit of hiccups but overall Whole team is friendly and very honest with their recommendations.\n\nSee you in my next car service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "jack yu",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKNbbZau9gxjhpMi-_J0eMqf_LTDkqoIMWJdIOBHAwDFhIT8g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Happy with service and great customer service I have been to other dealer, but no should up and explained me about the vehicle venu showed lot effort in showing the vehicles and explaining them and given information what I need for.\nI am very happy with Ldv parramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "youngjun sun",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocI9wFK7BEpL_5MCDW_Zq2PEfVlXr6hEEYmBJ9qf5w6Zvzx-Og=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "\"절대\" 가지 마세요.\n딜러가 시스템 자체를 모르고.\n신경 쓰지도 않습니다.\n계약하고 돈내면 끝이라고 생각하는 딜러입니다\n차 뽑았는데 키는 하나주고 심지어 로그북도 아직 못 받았어요 ㅋㅋㅋ\n절대로 여기가지 마세요.\nG10에 좌석 3개 추가했는데 레지에는 2개만 등록되어있고\n일하다 차때문에 스트레스 받ㅇ아 ㅈ죽을꺼 같아요\n\n카브라마타 LDV가 친절합니다.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Matthew Vaughn",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLzNTlzUXJhogcKZTTDl23hv0PLYXN1zywpSMsTwQ_OL0qz6Q=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "had an amazing experience with john and emma\nevery step was a pleasure too be apart of very easy to organize what i wanted and needed highly recommend the team at ldv  parramatta would buy again without any hesitation from this team",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Milzy Tasic",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLHCqncGGvZckLoyMup2Csr9FjUQG2AfGNPEpMln4mS5Ij_4Q=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Just wanted to thank Raj and Michael for a great purchsing experience from start to finish.\nRaj handled all the sales related stuff with ease and Michael helped me out with the car finance with alot of knowledge with different products that suited my business.\nMost importantly the T60 ute is a great buy and great service along with it.\nThx again LDV",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Jash Sharmane Kumar",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU7hImBvr9r8j4Z-wqb1Vc5ay2avHqSrbZhMurPzTIAB0tRKfc=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I could not be happier with the service I received from the team at LDV Parramatta. A big thank you to Emrald and James for your amazing customer service in the purchase of our first car.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "lawrence chan",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVuqGSilH1Cz-F9sTeqm7-E6yK2QTZ4UqoDep4Oo-Y4h_TXGg8=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Bought a V80 Mid Roof from them,good value \u0026 product. They are very helpful and professional when it comes to customer service.  5 Star ! Keep it up mate",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "lisa guo",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLj1eqj2Gm6oHZVr0FA-UEPf52l2_6PzTFbLwRgyepGqDXpKg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "It was a great experience dealing with venu, he was very helpful and explained us with everything till the vehicle delivery. I received the vehicle in time and very happy with the service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "UK Ajmeri",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU1yVxiAT1EdBODYUiIqmttIgDNr2feUaEi813gdcNsFiDLi51q=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I bought T60 ute. Happy with deal and great costumer service. Specially thanks to emerald for your support and helpful advice. Great team .\nHighly recommended for great LDV deals \u0026 costumer service.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "jeremy birrell",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIv1SIuiE63w6xYoi0ufzgRiXWSZi1Vy3aH31ke3BhsXwXTbA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Really happy with the service at LDV parramatta, I would like to send my thanks to Emerald for looking after me when I got my LDV T60 ute. I was impressed with his professionalism and service. The whole experience was excellent. Overall really happy with my new LDV.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Scccorpian",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU19mu9rCNtryrThshyes9VRR_KAEszXI2pMupw1YcR_1Oh9bMx=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Nima was very helpful and sold us t60 max luxe ute",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "subakaran yogeswaran",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJ4eFrBvqRMsBQVbmhpJ792ZBST8NSi-0v_dPk-wNox40u0jg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I went to Parramatta LDV to get my second van for my business staff was very friendly. when you go to Parramatta LDV please see John and Muskan they will look after every thing you need.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sean",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV7vh3iyb20ks3zVFcty7y9wC0tSQQGjLeWPwH3m0vGkST4J9_T5g=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Kimberley was really nice and helpful. Got my new ldv electric van excited .",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Aytac Emre",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUXX05pl2YO74QOg6Zk1bun5LdAJ6KxZC39-rVkH8uAQ4hZNuh7=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very happy with service and venu ia great with product knowledge and promised the delivery in time\nVery happy with venu and ldv parramatta team",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Richard",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUnSgD9tXb0Rn5etWrYcc1WmBzEIpMHOOcOhwJaFQ5UdNkc4E4=s120-c-rp-mo-ba2-br100",
+            "Rating": 1,
+            "Description": "Be there on 19th July , want to tray in my car, a man there , I don’t know your name but if want to buy you buy , if can’t just said so, don’t  call there asking others are you copy cat? Asking other colleague then you know how much it is ? Keep saying nothing. Then your company hire you what for? I really don’t understand what are you doing?",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Stephen Bell",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJvybnThOtVDgtoyTyNz8awtE1bNy3EyRG0qMeUVCHmsUcp5Q=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "What an awesome experience and customer service. Michael at Ldv is an absolute pleasure to deal with. He went out of his way from start to finish to keep the customer/me happy.  Great van and so happy I dealt with Michael, would recommend anyone for a ldv and especially to talk to micheal.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "MM",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUOvp-SSjepf4whleY7o7UsHyKCyNh2av2LBjbk1Xsxu0QnoXk=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu was great to deal with and the overall Service was very fast. Very easy to deal with and definitely recommend.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Tracey Stow",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJjBIleql1_M5Jcd2xhDTr8bUYyGQVpCBQhgntCehaSCDnNbg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Just purchased a car and traded in my old car. Such a friendly fun experience. The salesman Emerald and Manager were both attentive and helpful. I would definitely recommend buying from them 😎",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Leisa Everson",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLLtxwIGO0pctqCrPvrsGl-YZOq1Q2ehBHCORi1w9oGIcIHcw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great staff, great customer service.. Thanks to John and all the staff at LDV.. You made the purchase of my car an easy \u0026 relaxed process. So excited and happy with my purchase",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Jhonny Yammin",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKaohTmZd6Fn5mdnwAVI14p0n79fZpYE2BKC4h7RoOPrQbQbQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I must say that my experience at LDV Parramatta was top and nothing less than professional thanks to John Thomas who was very welcoming and helpful and was able to hold the Van for me especially in a time of high demand,\nThank you John.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Duha Samin",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU_dRmW7jd6cN0frZnVOW1KIjSP5X22akcHRkUuL_wIByvICQL4=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "We had a very good experience at LDV Parramatta with our purchase of the LDV D90. Emerald and the finance manager were very helpful and friendly. Thank you!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sameer Paiman",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLb3SwrJHdoFrmk5lzAmAVVrg3eqUt4cJGo0H0lS8EtPiMYYg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I have purchased new LDV van and venu was the right person from the beginning  of the process till i  got the keys 🔑  of my brand new LDV deliver 9 van I'm really happy with the service that venu have provided  was straight forward easy going and helpful with the process of getting the van any one wanting any vehicle venu would be the right sales person thank you again",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Musa Tee",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLm2JIWxJMdFu4CCGXqt2wrvsO7Cm2NXPqfSbqMEZpU53sZew=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Would like to say thank you very much to Saad,John and Muskan for the great service that was provided while purchasing the brand new t60\nHighly recommend",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "George Kwok",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWnrN1rtjSccK7QctA4oxVfXHHZrfUjPPLHC-FR6RFLEHWMTgOI=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Bought a Delivery 9, nice and worth for the value.  Professional Salesman John help out a lots, must refer to friends!\n\nThank you John!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Amandeep Kaur",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIK3PBP5epzeWvzwsDb8URkHBOUoQBqTM52ti46tvgR2xBc5g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Hi It's Jasman Group Pty ltd.We bought van recently,It was a great experience.John,Adinda and whole team help us upto the Mark.Highly recommended.Thank you Parramatta team.🙏",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Praneesh Chand",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJ52yZB41BOskK1AGMNzwdYiiexj6TpNyKc60AZmKVC225T_A=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Absolutely incompetent company and cars . Please don’t buy anything from this company .\nWarranty doesn’t mean anything  and the cars utes and van are of  cheap quality.\nYou get what you pay for as they say . Biggest mistake I made of buying from them.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "贾玮",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIRuYl3ZIvohFsiFMVBidGd72cVacgWq7mftQwjIm7F4nK7dw=s120-c-rp-mo-ba3-br100",
+            "Rating": 1,
+            "Description": "We can not make deal because price. They called me by private number and talk rude: do not click l in Carsales too many times, you click once, they charge me$50; I said I did not click more than once, if Carsales charge you too much, you should call them , not me. But he still spoke same thing , and repeated “ we can not give you the price you want”",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ejaz Rana",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIBRVCPLuRAjSdMeZ2usX7sLDmeZf8lE2rImTba2n1IK-joBA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "It was a great experience. Venugopal is very supportive and helpful throughout the process and the vehicle is arrived before the estimated arrival. I personally the recommend Ldv parramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "HSB ROADLINK",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU42DN9IuJYRT4PuAVUZEe1GpjuCvR0ihH6MFxp4m7tNRwlTIw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I had an exceptional experience during my recent purchase. Venu was extremely helpful and presented every detail very well during the process.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Hamid Ali",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVUJF1-WPJ37SszeDYBHQcDvW2tsBeWzazcHnvfgi2BnE8eYWXQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Superb experience with LDV Parramatta, so thankful to Alex and Philex for amazing customer service which made easy for me to decide the right car in my budget.\nHighly recommend LDV Parramatta",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Achsu mauoori Mauoori",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLN9l4RyRlTrN0ZoFP_Nu8IwZ_BD4REQa70kUR6rSkNxqdEnw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very good customer service from venu and team, what ever committed to me was fulfilled and delivered in time.\nHappy with entire process and customer service from ldvparramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Salim Al Maet",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVOKf2FWhDho7EIAXBr_ETXkQBBWpHlg-1VQlS6xPNpkbtkeadHVw=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Thanks for Jamie procopio at ldv service Paramatta for being outstanding professional customer servicem you the reason I keep coming to do my services there I recommend ldv Paramatta service for everyone care about their cars and quality service not cheap price thank you\nJamie left the service department always have problems with their phone they have answering machine they all time on another call i tried to call today 15 times and everytime the say answer someone put the answering machine by accident or on  purpose what kind of business they doing. I been calling for the last  two days and as well they have mixed information about my LED light the spare parts they say I have to change the whole front headlight the guy at the service he booked my car the next day to come early in the morning to change the globe for my LED the spare part they saying I have to change the whole thing this problem I faced it with many ldv dealership when they say you have to change the whole thing and one say we can change it for you but we're gonna put you into weeks three weeks time I can't drive with one light and no one knows much information how to change LED in my ldv t60 so guys Jamie the major of the service he'd been moved to another ldv and since he left things changed I think if you are running a good business you have to have a good customer service answer the phone not trying all day to actually call them and they have the answer machine all the time specially for a service department how are you going to book your car for\nService",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Nick Jess Chhina",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJYtzmXMNH8RbTzXzxMzRcjguVwR3ozSq2OVR1SwdIkxJnHPw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Good customer services and very professionally, easy to deal with Kimberley.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Puspa Adventure27",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjU5CE4XgeD_09T6zwio_YT5UFD0BRRbbPdk1_8NZffbi0P5gPuf=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "GREAT customer scervice. Great knowledge of vehicle. Didn't had to wait long for the vehicle. Thanks to Venu for making process smooth and easy.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "flaming_Shuriken",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjV4iySHGO0y2AXSzNK7qTKoW0hK4pDMth7Fv6wUkPlq_tOa9Hk=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great customer service. Saad was very helpful with translating for my dad who didn’t understand English well.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ankur Patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJqov9Otjgmsdpqygv-i44ryzk9EAMdBIbbPzZwQfeB0WAVzg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very happy with venu and team. delivery committed  in time and muskan was helpful with finance and last John helped with all.\nHappy with ldv parramatta team.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Kunal Verma",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWKSUZMI9JsJF1yvtjiUfUMMIWJW6ngl4B3M0pa2biCkB9uUJauyQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Hi Team I would like to bring it to your kind attention that, I have recently purchased a D90 from you, and sales team member Daniel has been exceptionally good with his service, he has gone beyond in everyway to help me out with the delivery of the vehicle and I will strongly be recommending him in future :) Regards Kunal Verma",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ed Tyler",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK3tPXhVgKUUUDle3IhDtdusMimQu9_q8tJPjH-C4I3fVnNmQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Nizar went above and beyond: non-mechanical issue with the car noticed on pick up after buying, he arranged for it all to be fixed whilst on his day off, very happy customers, thanks Nizar!",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Umesh Dagar",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIaIfXZTLruwEhwuI6qDQ6t4iV5jyJiAtJhQ8AWAoIdhcf5qg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Happy with service and process venu updated with the vehicle in time and delivered it.\nExcellent service and recommend Ldv parramatta to buy new vehicle.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Daniel Sakr",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocK1ZuibLZ3ByzqzZd7aBZR8SVKjZL-aoQIjYLVmal93zd3v3A=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu was an amazing help! So happy with our purchase. Would definitely recommend to family and friends",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Manuel Giannis",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocI4-_kSED7xm-v6wrXE_oxcgcURqEjuJNqzhazahx8fMye4jQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "David was amazing when we dealt with him but the sales guy Micjael... My God he needs training and to learn ppl skills... Especially when he's dealing with people that are from different ethnicity... Thank God David came in and had a honest and geniuine approach ...",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Susie Jarrouj",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKdJ3pCJkB-5Ei7IF1alPwIc6TKcLtdP4sy9c960O1SFRwAzA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Recently bought a new car from here\nOur car sales man was Saad he had\nExcellent customer service\nVery professional very informative and would highly recommend this dealership",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "patel nainesh",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXiaGuhIpmC6ioeQHYBcOJkFKi0JmGqzxi6Me8Yx_1j3QhqfaQ=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Beat experience with John , Venu, and Muskan from Finance. All team members from LDV Parramatta very helpful.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Mahmoud Moerbany",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWTiJc9nzIT2Z87bkX6TgLqf3uthPa-CpFKKi1-hM5II7lvXSsz=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "amazing service by saad. His new but it felt like he was there for a long time with his product knowledge and experience with cars I can’t wait for the new MIFA",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Allan Auzzie",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKEcBnzywGS01jlA37zgmlOn19ZeG8XVlZYcuB7WabeIWNdAw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Purchased a G10 van dealing with John T\nvery happy with the purchase and service from John\nIf your looking to buy a LDV see John T at Parramatta\nHappy LDV owner\nAllan",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Efu Meyer",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKtQMv24AG7t_9ua3ie0pIR3D4JlMLxY5B60X0c1FsNZ5jZvw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Sales consultant John thomas was amazing treated me with honesty and respect any questions I had about my new ute were answered straight foward if you interested in purchasing a new car go see him I recommend ldv parramatta  also business manager James what wonderful guy he gave great finance and insurance advise  thank you so much guys it was pleasures doing business with you guys  God bless  check them LDV PARRAMATTA",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Shocker French",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVp5nmOwtu-fdwr_XPkhKAQSCHWeLBtLYWqaiuH1bCa0QaNtwUm=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Nizar was grate helped me elderly to get a 7-seater just before Christmas for me and my family very grateful.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Rafael Kaldy",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWMj8EGRD5sbeK8D3Y_3Ep2BQfJC6qkLD_6cOMkC5BGlCaSXVk=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "John at Ldv parramatta is a Awesome salesperson great at his job and helped me purchase my van very great and helpful guy !! Amazing workmanship 👌🏽",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "C R",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjWWSgqYmAtvhBhGxW4ojirO6lnSIYYUmUZj4XAibizGh2xR2z70=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "John and Jai at LDV Parramatta were excellent in assisting me with my new LDV D90. Highly recommend them.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Phil Mitchelson",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXZq3n0obJvFzpNCVdIulxyXdRt688LTnLeriTj-lmyBe9pTYd7=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Super friendly staff that went out of their way to get me a great deal. Very happy with my experience.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Rajwinder Sudhan",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKMqOusEjv5qIfx6NjZ34ux-f2KwwNx_yPGIKV4JjzONOpBUw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very good customer service Venu and his finance team, very helpful in all accepts and delivered in time.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Dilorom Abdurasulova",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVHabv_7WJgbyhCGveq8P5eutEA5i_Uz38XJ4GO5TQ4XdmMViEW5w=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Timely and high quality service, loved our experience 👍 Thank you so much Venu",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Navroop Singh",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIjiVRf--clMHCURUPxb-jx2_ks6AsAwyx41jxRjWwpCUEN5g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Kimberly was amazing, dealing was very smooth as. Very happy.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Nafisa Safie",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKWLw6lC81aze2TTGIYJ3KpvH1Us-2EvAlVMKEavxK4nSKMFg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "It was good, however, I was very disappointed that the LDV 10 Executive model had absolutely no boot space. Otherwise I would have definitely bought one.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Michael Fenwick",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJB-NtzBRVyQKhR7QB_wdw0U3zF_lwZYqQM2VaVsWjMNkxQ3g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Just got a ldv t60 from here, excellent help from the sales man jonh made the process a whole lot easier for myself keep up the good work.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "gary penman",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIM-1VwGjaTgCruZ7BTh6128tDPJLDjgFp2nhHDPr-DlAngFg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "bought a brand new LDV loved the vehicle, but the service from the sales team was outstanding had been at another dealer and there was no comparison",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Nik",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVD8UbMfFmyWWIJrgswvs6amHixmCHI99Ep3AhL2Juhj1QGjAQEFQ=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Amazing experience with Venu. On time delivery and smooth handover process.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Mounika goud",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLi2uyavH50kvWFUeDAlntI94qntkIrQc60HjonK6pq-kZVBg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "great customer service, very happy with the process and the sales person Venu answered all the queries.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "M M",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUDllKOFhzlpvxXf9B-HD5lwEYgAKUtfDLni12X7CCYaaAT1ZU=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Poor service by LDV Service Dept Reception. Advised to stop driving a business vehicle after a fault light came on 1 week after a scheduled service done by them. They were unable to check the vehicle for a week as they had no availability. Very, very poor form.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "glen Jones",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVlBqOdkPmFELgo4D8lLiG2nJsSFCWKOZUkLlUQBLNpSS9USTG8=s120-c-rp-mo-ba4-br100",
+            "Rating": 5,
+            "Description": "Great to deal with ✅ John has answered all my questions promptly \u0026 in a professional manner also went way way \u0026 above my expectations, the team at LDV parramatta are easy to deal with highly recommended",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Fidelma Murphy",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKpFS0MO66NQ-RApP8DJDWpCD270txZOXVIVN8-JibemOiNHA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Recently purchased T60 with the help of  Venu who was excellent throughout the whole process. I Would highly recommend.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Ryan Ongkee",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLYIrkznS9XK7qgSpYk4W8CpEBJXrjXxHiUttTD5pDMfNA8uw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Awesome deal and great sales agent venu to deal with! We are happy with our new t60 max ute",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "alican kartal",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLudsp6Z-GdVjoagQgZZu_pZYBKcMbvcL3wnW9LH-AGlZ-3Zw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Thanks For your best Service Venu\nİt was easy and very quick in couple of days to have brand new car10/10",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Sunny ZHOU",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXF3X3skhOQN1rkai_GnD9xiV7W52HkBezbDHUaY0MAzxE93ZOA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great experience with LDV parramatta, great team and professional service. Especially John, very polite and easy to deal with, strongly recommend.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Jody Masterton",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLmRzBZguXhAkT2t4rc57Zp6sf2y0ne1Ai7rSt-cpULxqLRFw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Michael is amazing...so respectful \u0026 helpful he went above \u0026 beyond for me\nAbsolutely love my new car\nSooo happy thank you :)",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Prakash Patel",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKlQ4-vi909bbKlGaq0bHpyij8Kwvv1AC-evYxYDDHsJs22jw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Customer service is really good and guy working there his name is venu. His really helpful and giving good service",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Elizabeth Li",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVczkMfb2iE4q9MMapdtzTFZfZwCBrE3XlqY_BtfpC3I2dFs2z8=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Staff were friendly, instantly made a great car deal, parents decided to buy the van right away :)",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "mohammed elarja",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKUSQtUWMsuRNZbsgH7hEg7mXFY1lUy6V-pqgsgTuYdpGHZ9g=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Saad at LDV has been great help and straight talk. If I can put a 10 star I would of 👍",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Rohullah Amini",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjVLJ8H_OgPq_2NggkpBvCZrP6JSoMaAGju3S-x1la53qAKBv5Y=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Terrible terrible experience at Parramatta service center! Two of their receptionist name Husssein and Jody are absolutely joke",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Francisco Lineses",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLq4T_i9W9HONEddQVoLjndQQ2u4z07fawVdgtTDdQzdfhM0A=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu is very\naccommodating, helpful Andyand friendly in nature helped us throughout the process. people here are\ngood and helpful.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Mohammad Islam",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocIbHMF7FcSWsLvUw6p-MkKTojT1RPWeiA0xAalF_V-SlAHC=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "I have very good experience with Venu and I really appreciate their customer service love my LDV",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Joseph Sagovac",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUA1OQ_-AYR8OshWKt449JmCZokSL_6J1giypeia6-Cz8PPCZbA=s120-c-rp-mo-ba2-br100",
+            "Rating": 5,
+            "Description": "These guys where very very friendly and done there best to give us a great price for the vehicle we purchased from them well done guys",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "LICHEN XIN",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocJxD3wa9KF_D7SJcGMbHyWEr1kjeaghtgOgCN9T1nwiVCxhbQ=s120-c-rp-mo-br100",
+            "Rating": 1,
+            "Description": "Not professional enough as a new car dealer. Bad services especially for car finance. Wrong information entry and ask customer to pay. Not recommended",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Duy Bui",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocILe-GqZIRbTxH34G8fXpPzo4QgvmOGPB_LeX3bVXalvHIdpA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "If you’re looking for a new car, speak with Venu. Hes honest and heart warming",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Danny Walker",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLVxR9qr2x36NUsRNpMSrR3R7BTwzBSGutycPCA2DwjzXmibw=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venu is best person to help with and good attitude and helpful in all needs.\nI recommend ldv Parramatta and see venu.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Moey Hass",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocLTO8y-AiGwOqpHl0kSStgsq6X-j8T6P5Dtibcs2Qj8XNXtGA=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Venugopal was very honest and my car was right on time no issues highly recommend",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "aaron",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a/ACg8ocKmRa_NXHWrTMPPpguytaOTlwn1gAof-IPT1vLvER7CJ_9fLg=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Very good  service. Happ with the service and venu promised his commitments and delivered before the ETA.\nHighly recommend ldv parramatta.",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Adnan Abbass",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjXo_benggnZyRE6SrKz47YfB7CyROh6ur7qG6W1kOyV5aKhb7UAVw=s120-c-rp-mo-ba4-br100",
+            "Rating": 5,
+            "Description": "Perfect very affordable prices\nAnd I want to thank Venu his very nice person and professional helpful\nThank you",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Jason Portelli",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUZ_gtwMBEcBzUQqL29AXCi7ztp2wonZ6Rd1w-TL1dwtFLZKzo=s120-c-rp-mo-br100",
+            "Rating": 5,
+            "Description": "Great job from venu great explanation to my new van",
+            "Images": null,
+            "When": ""
+        },
+        {
+            "Name": "Roy Halabi",
+            "ProfilePicture": "https://lh3.googleusercontent.com/a-/ALV-UjUQQh51cTRqo-oZRrsUSt9Y0f6coWTA7eF_REJRp9WpwsEr25yi=s120-c-rp-mo-ba3-br100",
+            "Rating": 5,
+            "Description": "Saad at LDV has been great help, good product knowledge and straight talk. 👌",
+            "Images": null,
+            "When": ""
+        }
+    ],
+    "emails": null
+}
