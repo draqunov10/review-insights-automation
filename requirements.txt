@@ -1,4 +1,4 @@
 requests
 langchain
 langchain-core
-langchain-community
+langchain_ollama
