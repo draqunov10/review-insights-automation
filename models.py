@@ -1,4 +1,10 @@
 from langchain_ollama.llms import OllamaLLM
+from langchain_google_genai import ChatGoogleGenerativeAI
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY2")
 
 # Thoughts: Avoid bias by being independent review summary assistant
 REVIEW_SUMMARY_TEMPLATE = """You are a concise review-summarization assistant.  
@@ -15,9 +21,14 @@ Requirements:
 8. Output format: plain summary text only (no extra sections). Optionally include one short parenthetical with a representative quote from `user_reviews_extended`.
 
 Example output length: 1-4 sentences, ~25-100 words."""
-summarizer_model = OllamaLLM(
+summarizer_model_ollama = OllamaLLM(
     model="mistral-small3.2",
     system_message=REVIEW_SUMMARY_TEMPLATE,
+    temperature=0
+)
+summarizer_model_google = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash",
+    model_kwargs={"system_message": REVIEW_SUMMARY_TEMPLATE},
     temperature=0
 )
 
@@ -45,9 +56,14 @@ Rules & constraints:
 - Counts are available (from `reviews_per_rating`), use them to quantify themes where reasonable (e.g., "% 5-star", "33 one-star reviews").
 - When representative quotes exists, maintain them and enclosed in quotes.
 - Tone: professional, concise, and actionable (neutral-to-positive)."""
-analyst_model = OllamaLLM(
+analyst_model_ollama = OllamaLLM(
     model="qwen3:32b",
     system_message=REVIEWS_ANALYSIS_TEMPLATE,
+    temperature=0
+)
+analyst_model_google = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash",
+    model_kwargs={"system_message": REVIEWS_ANALYSIS_TEMPLATE},
     temperature=0
 )
 
@@ -62,8 +78,18 @@ Task:
 
 The final output should be in *markdown format*, and it should be lengthy and detailed.
 Aim for 2-3 pages of content, at least 1000 words."""
-writer_model = OllamaLLM(
+writer_model_ollama = OllamaLLM(
     model="qwen3:32b",
     system_message=REPORT_WRITING_TEMPLATE,
     temperature=0
 )
+writer_model_google = ChatGoogleGenerativeAI(
+    model="gemini-2.0-flash",
+    model_kwargs={"system_message": REPORT_WRITING_TEMPLATE},
+    temperature=0
+)
+
+# Test usage here
+if __name__ == "__main__":
+    # print(ChatGoogleGenerativeAI(model="gemini-2.0-flash").invoke("Who is jose rizal?"))
+    print(OllamaLLM(model="mistral-nemo:latest").invoke("Who is jose rizal?"))
