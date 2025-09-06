@@ -21,7 +21,6 @@ summarizer_model = OllamaLLM(
     temperature=0
 )
 
-
 # Thoughts: Since this is a more complex task, use chain-of-thought/reasoning model.
 REVIEWS_ANALYSIS_TEMPLATE = """You are an assistant expert at review sentiment analysis.
 Task: Given an array of dictionaries/JSONs containing `title`, `review_count`, `review_rating`, `reviews_per_rating`, and `review_summary`, provide a meaningful insights/themes, prioritized recommendations, and measurable next steps based on customer feedback.
@@ -35,7 +34,6 @@ Guide:
 5. Report **confidence & data gaps** (e.g., “no negative review text available — only counts”).
 
 Required output would be a JSON object with these keys:
-- `title` (string)
 - `brief_sentiment_analysis_summary` (string, 1-2 sentences)
 - `overall_metrics` (object: `average_rating`, `total_reviews`, `rating_distribution` copy of `reviews_per_rating`)
 - `themes` (array of objects): each `{ "theme": string, "sentiment": "positive|negative|mixed", "explanation": string, "supporting_count": int_or_null, "representative_quotes": [strings up to 2] }`
@@ -46,25 +44,24 @@ Rules & constraints:
 - Use only facts in `data`. Do **not** invent or infer details not present.
 - Counts are available (from `reviews_per_rating`), use them to quantify themes where reasonable (e.g., "% 5-star", "33 one-star reviews").
 - When representative quotes exists, maintain them and enclosed in quotes.
-- Tone: professional, concise, and actionable (neutral-to-positive).
-"""
+- Tone: professional, concise, and actionable (neutral-to-positive)."""
 analyst_model = OllamaLLM(
     model="qwen3:32b",
     system_message=REVIEWS_ANALYSIS_TEMPLATE,
     temperature=0
 )
 
+# Similarly, use chain-of-thought/reasoning model.
+REPORT_WRITING_TEMPLATE = """You are a business researcher tasked with writing a cohesive report about customer reviews for the client.
+You will be provided with the report data containing original review data and some initial analysis from an analyst assistant.
 
-# Similarly, use chain-of-thought/reasoning model. 
-REPORT_WRITING_TEMPLATE = """
-You are a business researcher tasked with writing a cohesive report about customer reviews.
-You will be provided with the original review data and some initial analysis from an analyst assistant.
-You should first come up with an outline for the report that describes the structure and 
-flow of the report. Then, generate the report and return that as your final output.
-Make sure the report includes an executive summary, complete details including the review analysis, and actionable recommendations.
-The final output should be in markdown format, and it should be lengthy and detailed. Aim 
-for 2-3 pages of content, at least 1000 words.
-"""
+Task: 
+1. You should first come up with an outline for the report that describes the structure and flow of the report.
+2. Then, generate the report and return that as your final output.
+3. Make sure the report includes an executive summary, complete details including the review analysis, and actionable recommendations.
+
+The final output should be in *markdown format*, and it should be lengthy and detailed.
+Aim for 2-3 pages of content, at least 1000 words."""
 writer_model = OllamaLLM(
     model="qwen3:32b",
     system_message=REPORT_WRITING_TEMPLATE,
