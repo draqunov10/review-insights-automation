@@ -81,8 +81,23 @@ def process_input(month: str | int) -> list[dict]:
     
     return filtered_ldv_dealerships_keys
 
-def process_summary():
-    pass
+def convert_to_report_data(
+    client: str,
+    loc: str,
+    desc: str,
+    report_title: str,
+    processed_data: list[dict],
+    analysis_of_processed_data: dict
+) -> dict:
+    return {
+        "client": client,
+        "location": loc,
+        "description": desc,
+        "report_title": report_title,
+        "report_date": datetime.now().strftime("%Y-%m-%d"),
+        "analysis_of_reviews": analysis_of_processed_data,
+        "dealerships_with_reviews": processed_data,
+    }
 
 def make_pdf(md: str) -> None:
     with tempfile.NamedTemporaryFile(delete=False, suffix=".md", mode="w", encoding="utf-8") as tmp_md:
