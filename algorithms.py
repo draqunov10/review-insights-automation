@@ -58,6 +58,10 @@ def filter_keys(d: dict, keys: list[str]) -> dict:
 
     return {key: d[key] for key in keys}
 
+# Remove certain keys from a dict
+def filter_out_keys(d: dict, keys: list[str]) -> dict:
+    return {key: d[key] for key in d if key not in keys}
+
 # Return an array of dealerships json ready to feed by batch
 def process_input(month: str | int) -> list[dict]:
     raw_ldv_places = parse_json_lines()
