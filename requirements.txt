@@ -1,0 +1,4 @@
+requests
+langchain
+langchain-core
+langchain-community
