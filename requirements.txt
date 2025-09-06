@@ -2,3 +2,4 @@ requests
 langchain
 langchain-core
 langchain_ollama
+markdown-pdf
