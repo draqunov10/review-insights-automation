@@ -6,22 +6,33 @@ Automated pipeline for collecting, analyzing, and reporting on customer reviews 
 
 ## Repository Structure
 
+
 ```
-.env                      # Environment variables
-.gitignore                # Git ignore rules
-requirements.txt          # Python dependencies
-ai_chat_models.py         # AI models for review summarization and report generation
-algorithms.py             # Data processing and report formatting logic
-api_queries.py            # (Reserved for API integrations)
-report.py                 # Main pipeline orchestration
-cache_data/               # Cached data (JSON, JSONL)
-reports/                  # Generated PDF reports
-utils/                    # Utilities and Google Maps Scraper
-  ├─ gms_input.txt        # Input queries for scraper
-  ├─ GMS_README.md        # Scraper documentation
-  ├─ google_maps_scraper  # Scraper binary (Linux)
-  ├─ google_maps_scraper.exe # Scraper binary (Windows)
-  └─ webdata/             # Scraper database files
+.env                        # Environment variables
+.gitignore                  # Git ignore rules
+requirements.txt            # Python dependencies
+ai_agents.py                # AI agent logic (NEW)
+ai_chat_models.py           # AI models for review summarization and report generation
+algorithms.py               # Data processing and report formatting logic
+api_queries.py              # (Reserved for API integrations)
+main.py                     # Command-line interface and entry point (NEW)
+report.py                   # Main pipeline orchestration
+cache_data/                 # Cached data (JSON, JSONL)
+  ├─ LDV_places.jsonl       # Example cache file
+  ├─ LDV_places_backup_...  # Backup cache file
+  └─ sample.json            # Sample cache data
+reports/                    # Generated PDF reports
+  └─ september_report_...   # Example report
+utils/                      # Utilities and Google Maps Scraper
+  ├─ gms_input.txt          # Input queries for scraper
+  ├─ GMS_README.md          # Scraper documentation
+  ├─ google_maps_scraper    # Scraper binary (Linux)
+  ├─ google_maps_scraper.exe# Scraper binary (Windows)
+  └─ webdata/               # Scraper database files
+    ├─ jobs.db              # Main database
+    ├─ jobs.db-shm          # DB shared memory
+    └─ jobs.db-wal          # DB write-ahead log
+__pycache__/                # Python bytecode cache
 ```
 
 ---
@@ -53,6 +64,10 @@ utils/                    # Utilities and Google Maps Scraper
 
 ## Usage
 
+**This project utilizes [*Ollama*](https://ollama.com/download). Please download and install it from their official website.**
+
+The scraper uses **WSL2** when the script detects a Windows platform. Hence WSL2 is required.
+
 ### 1. Install Dependencies
 
 ```sh
@@ -61,23 +76,44 @@ pip install -r requirements.txt
 
 ### 2. Configure Environment
 
-- Set up `.env` with required API keys (i.e. currently uses `GOOGLE_API_KEY` for Google AI model).
+- Set up `.env` with required API keys (i.e. `GOOGLE_API_KEY`, `TAVILY_API_KEY`, `SERP_API_KEY`).
 
 ### 3. Run Google Maps Scraper
 
 See [utils/GMS_README.md](utils/GMS_README.md) for command-line options and usage examples.
 
-### 4. Generate Reports
+
+### 4. Run the Pipeline or CLI
+
+You can run the main pipeline or use the CLI for custom options:
 
 ```sh
-python report.py
+python main.py           # Run the CLI (see `python main.py -h` for options to adjust parameters)
+python report.py         # Or simply run the default pipeline
 ```
 - Outputs PDF report in `reports/` directory.
 
 ---
 
+## Main.py Optional Parameters
+
+| Argument         | Type    | Default                        | Description                                                      |
+|------------------|---------|-------------------------------|------------------------------------------------------------------|
+| `-m`             | int     | `current` (uses current month) | Month as integer (1-12). Specify which month's reviews to process.|
+| `-reuse-cache`   | flag    | `False`                        | If set, reuses cached data for input processing.                  |
+| `-scrape_dir`    | string  | `./cache_data/LDV_places.jsonl`| Path to the JSONL file containing scraped review data.            |
+
+**Example usage:**
+```sh
+python main.py -m 9 -reuse-cache -scrape_dir ./cache_data/LDV_places.jsonl
+```
+
+If no arguments are provided, defaults will be used. See `python main.py -h` for help.
+
 ## Key Files & Functions
 
+
+- [`main.py`](main.py): Command-line interface and entry point for automation and custom runs.
 - [`algorithms.process_input`](algorithms.py): Loads and filters dealership review data.
 - [`ai_chat_models.generate_review_summary`](ai_chat_models.py): Summarizes reviews using AI.
 - [`ai_chat_models.generate_reviews_analysis`](ai_chat_models.py): Produces sentiment analysis and recommendations.
@@ -94,3 +130,13 @@ python report.py
 - For scraper details and advanced options, see [utils/GMS_README.md](utils/GMS_README.md).
 
 ---
+
+## Further Automate via Cron Job
+
+To schedule automatic report generation at the end of each month, add the following cron job (Linux/macOS):
+
+```sh
+30 23 28-31 * * [ "$(date +\%d -d tomorrow)" == "01" ] && python /path/to/report.py
+```
+
+This runs `report.py` at 23:30 on the last day of each month. Adjust `/path/to/report.py` as needed.
