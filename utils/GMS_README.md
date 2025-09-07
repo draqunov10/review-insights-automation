@@ -4,7 +4,7 @@ Version 1.8.4
 - Ubuntu AMD for just the binary
 
 ## Used Command
-`./google_maps_scraper -input "./gms_input.txt" -results "../cache_data/dealership.json" -json --extra-reviews -geo "-31.5253323,148.6922628" -zoom 7`
+`./google_maps_scraper -input "./gms_input.txt" -results "../cache_data/LDV_places.jsonl" -json -extra-reviews -geo "-31.5253323,148.6922628" -zoom 7`
 
 To try: --extra-reviews or -extra-reviews
 ### Command Line Options
