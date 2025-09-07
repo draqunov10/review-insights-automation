@@ -1,4 +1,5 @@
 from markdown_pdf import MarkdownPdf, Section
+from api_queries import fetch_reviews
 from datetime import datetime
 import json, subprocess, platform, os
 
@@ -17,7 +18,7 @@ def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[d
     return results
 
 # Scrape LDV places with reviews, or use cache if available
-def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cache: bool = True) -> list[dict]:
+def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cache: bool = False) -> list[dict]:
     if os.path.exists(file_path) and use_cache:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Using cached LDV places data.")
         return parse_json_lines(file_path)
@@ -32,17 +33,48 @@ def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cach
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Cache data already exists. Backed up {file_path} to {new_path}")
         file_path = new_path
 
-    command = ["./utils/google_maps_scraper", "-input", "./utils/gms_input.txt", "-results", "./cache_data/LDV_places.jsonl", "-json", "-extra-reviews", "-geo", "-31.5253323,148.6922628", "-zoom", "7"]
+    command = ["./utils/google_maps_scraper", "-input", "./utils/gms_input.txt", "-results", file_path, "-json", "-extra-reviews", "-geo", "-31.5253323,148.6922628", "-zoom", "7"]
 
     #! Must have WSL Installed
     if platform.system() == "Windows": command =  ["cmd", "/c", "wsl"] + command
     
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8")
     print(result.stdout)
     if result.returncode != 0:
         raise RuntimeError(f"Error occurred while scraping reviews: {result.stderr}")
 
-    return parse_json_lines(file_path)
+    #* Fallback for null reviews
+    ldv_places = parse_json_lines(file_path)
+    updated_flag = False
+    for place in ldv_places:
+        if not place.get("user_reviews_extended"):
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Re-attempting to scrape reviews for place: {place.get('title', 'Unknown')}")
+            place["user_reviews_extended"] = scrape_reviews_with_serpapi(place.get("data_id"))
+            if place["user_reviews_extended"]: updated_flag = True
+
+    # If any place was updated, overwrite the file with new data
+    if updated_flag:
+        with open(file_path, "w", encoding="utf-8") as f:
+            for place in ldv_places:
+                f.write(json.dumps(place, ensure_ascii=False) + "\n")
+
+    return ldv_places
+
+# Using SerpAPI's Google Maps Reviews API as contingency if initial review scrape fails
+def scrape_reviews_with_serpapi(data_id: str) -> list[dict]:
+    reviews = fetch_reviews(data_id)
+    if not reviews:
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | No reviews found for {data_id} using SerpAPI.")
+
+    # Renaming keys according to the original format of 'user_reviews_extended'
+    # Original keys: "Name", "Rating", "Description", "When"
+    # SerpAPI's equivalent keys: "user" (dict) -> "name", "rating", "snippet", "iso_date"
+    return [{
+        "Name": review.get("user", {}).get("name"),
+        "Rating": review.get("rating"),
+        "Description": review.get("snippet"),
+        "When": review.get("iso_date"),
+    } for review in reviews]
 
 def check_places(places: list[dict]) -> None:
     if not places: raise ValueError("No places found.")
