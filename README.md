@@ -136,7 +136,7 @@ If no arguments are provided, defaults will be used. See `python main.py -h` for
 To schedule automatic report generation at the end of each month, add the following cron job (Linux/macOS):
 
 ```sh
-30 23 28-31 * * [ "$(date +\%d -d tomorrow)" == "01" ] && python /path/to/report.py
+30 23 28-31 * * [ "$(date +\%d -d tomorrow)" == "01" ] && python /path/to/main.py
 ```
 
-This runs `report.py` at 23:30 on the last day of each month. Adjust `/path/to/report.py` as needed.
+This runs `main.py` at 23:30 on the last day of each month. Adjust `/path/to/main.py` as needed.
