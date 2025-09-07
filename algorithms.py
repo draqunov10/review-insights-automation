@@ -19,17 +19,17 @@ def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[d
 # Scrape LDV places with reviews, or use cache if available
 def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cache: bool = True) -> list[dict]:
     if os.path.exists(file_path) and use_cache:
-        print("Using cached LDV places data.")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Using cached LDV places data.")
         return parse_json_lines(file_path)
 
-    print("Scraping LDV places with reviews...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Scraping LDV places with reviews...")
     # Check if file exists and rename it
     if os.path.exists(file_path):
         backup_suffix = f"_backup_{datetime.now().strftime('%Y-%m-%d_%H-%M')}"
         base, ext = os.path.splitext(file_path)
         new_path = f"{base}{backup_suffix}{ext}"
         os.rename(file_path, new_path)
-        print(f"Cache data already exists. Backed up {file_path} to {new_path}")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Cache data already exists. Backed up {file_path} to {new_path}")
         file_path = new_path
 
     command = ["./utils/google_maps_scraper", "-input", "./utils/gms_input.txt", "-results", "./cache_data/LDV_places.jsonl", "-json", "-extra-reviews", "-geo", "-31.5253323,148.6922628", "-zoom", "7"]
@@ -46,7 +46,7 @@ def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cach
 
 def check_places(places: list[dict]) -> None:
     if not places: raise ValueError("No places found.")
-    [print(f"Missing user_reviews in place: {place.get('title', 'Unknown')}\nLink: {place.get('link', 'Unknown')}\n") for place in places if not place.get("user_reviews_extended")]
+    [print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Missing user_reviews in place: {place.get('title', 'Unknown')}\nLink: {place.get('link', 'Unknown')}\n") for place in places if not place.get("user_reviews_extended")]
 
 # Reduce the places by selecting only those who are dealerships
 def filter_dealerships(places: list[dict]) -> list[dict]:
