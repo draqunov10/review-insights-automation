@@ -34,7 +34,6 @@ def scrape_LDV_places(file_path: str, reuse_cache: bool = False) -> list[dict]:
         new_path = f"{base}{backup_suffix}{ext}"
         os.rename(file_path, new_path)
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Cache data already exists. Backed up {file_path} to {new_path}")
-        file_path = new_path
 
     command = ["./utils/google_maps_scraper", "-input", "./utils/gms_input.txt", "-results", file_path, "-json", "-extra-reviews", "-geo", "-31.5253323,148.6922628", "-zoom", "7"]
 
