@@ -1,6 +1,6 @@
 # Review Insights Automation
 
-Automated pipeline for collecting, analyzing, and reporting on customer reviews for car dealerships, using Google Maps data and AI-powered summarization.
+Automated pipeline for collecting, analyzing, and reporting on customer reviews for car dealerships, using Google Maps data and AI-powered summarization and report generation. The system streamlines reviews extraction, sentiment analysis, and actionable insights, producing professional PDF reports for business decision-making.
 
 ---
 
