@@ -1,6 +1,6 @@
 from markdown_pdf import MarkdownPdf, Section
 from datetime import datetime
-import json
+import json, subprocess, platform, os
 
 # Turn multiple JSON lines into an array of dicts
 def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[dict]:
@@ -15,6 +15,34 @@ def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[d
                 except json.JSONDecodeError as e:
                     raise ValueError(f"Error parsing line: {e}")
     return results
+
+# Scrape LDV places with reviews, or use cache if available
+def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cache: bool = True) -> list[dict]:
+    if os.path.exists(file_path) and use_cache:
+        print("Using cached LDV places data.")
+        return parse_json_lines(file_path)
+
+    print("Scraping LDV places with reviews...")
+    # Check if file exists and rename it
+    if os.path.exists(file_path):
+        backup_suffix = f"_backup_{datetime.now().strftime('%Y-%m-%d_%H-%M')}"
+        base, ext = os.path.splitext(file_path)
+        new_path = f"{base}{backup_suffix}{ext}"
+        os.rename(file_path, new_path)
+        print(f"Cache data already exists. Backed up {file_path} to {new_path}")
+        file_path = new_path
+
+    command = ["./utils/google_maps_scraper", "-input", "./utils/gms_input.txt", "-results", "./cache_data/LDV_places.jsonl", "-json", "-extra-reviews", "-geo", "-31.5253323,148.6922628", "-zoom", "7"]
+
+    #! Must have WSL Installed
+    if platform.system() == "Windows": command =  ["cmd", "/c", "wsl"] + command
+    
+    result = subprocess.run(command, capture_output=True, text=True)
+    print(result.stdout)
+    if result.returncode != 0:
+        raise RuntimeError(f"Error occurred while scraping reviews: {result.stderr}")
+
+    return parse_json_lines(file_path)
 
 def check_places(places: list[dict]) -> None:
     if not places: raise ValueError("No places found.")
@@ -66,7 +94,7 @@ def filter_out_keys(d: dict, keys: list[str]) -> dict:
 
 # Return an array of dealerships json ready to feed by batch
 def process_input(month: str | int) -> list[dict]:
-    raw_ldv_places = parse_json_lines()
+    raw_ldv_places = scrape_LDV_places()
     filtered_ldv_dealerships = filter_dealerships(raw_ldv_places)
     filtered_ldv_dealerships_keys = [filter_keys(dealership, [
         "title",
@@ -119,4 +147,4 @@ def make_pdf(month: str | int, md: str) -> None:
 
 # Test usage by running this
 if __name__ == "__main__":
-    check_places(parse_json_lines())
+    scrape_LDV_places()
