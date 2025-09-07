@@ -105,7 +105,7 @@ def generate_review_summary(user_prompt: str) -> str:
     return ChatOllama(
         model="qwen2.5:32b",
         temperature=0,
-        num_ctx=512
+        num_ctx=1024
     ).invoke([
         SystemMessage(content=REVIEW_SUMMARY_TEMPLATE),
         HumanMessage(content=user_prompt)
@@ -115,11 +115,13 @@ def generate_reviews_analysis(user_prompt: str) -> str:
     response = ChatOllama(
         model="qwen2.5:32b",
         temperature=0,
-        num_ctx=2048
+        num_ctx=4096
     ).invoke([
         SystemMessage(content=REVIEWS_ANALYSIS_TEMPLATE),
         HumanMessage(content=user_prompt)
     ]).text()
+
+    print(f"====== {response}")
 
     match = re.search(r'\{.*\}', response, re.DOTALL)
     if match: response = match.group(0)
@@ -130,7 +132,7 @@ def generate_models_analysis(user_prompt: str) -> str:
     return ChatOllama(
         model="qwen2.5:32b",
         temperature=0,
-        num_ctx=2048
+        num_ctx=4096
     ).invoke([
         SystemMessage(content=MODELS_ANALYSIS_TEMPLATE),
         HumanMessage(content=user_prompt)
@@ -140,7 +142,7 @@ def generate_md_report(user_prompt: str) -> str:
     return ChatOllama(
         model="qwen2.5:32b",
         temperature=0,
-        num_ctx=8192
+        num_ctx=16384
     ).invoke([
         SystemMessage(content=REPORT_WRITING_TEMPLATE),
         HumanMessage(content=user_prompt)
