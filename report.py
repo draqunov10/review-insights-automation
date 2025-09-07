@@ -27,17 +27,18 @@ def pipeline(month: str | int = "current") -> None:
 
 
     #* Step 3: Convert to report data and generate markdown
+    month_name = datetime(1900, int(month), 1).strftime('%B')
     report_data = convert_to_report_data(
         client="LDV",
         loc="New South Wales, Australia",
-        desc="Customer reviews analysis report",
-        report_title="LDV Dealerships Review Report",
+        desc=f"Customer reviews analysis report for the month of {month_name}",
+        report_title=f"LDV Dealerships Review {month_name} Report",
         processed_data=dealers_input,
         analysis_of_processed_data=generated_analysis
     )
 
     generated_md_report = generate_md_report(f"{report_data}")
-    make_pdf(generated_md_report)
+    make_pdf(month, generated_md_report)
 
     print(f"STEP 3 - MARKDOWN REPORT:\n{generated_md_report}")
 

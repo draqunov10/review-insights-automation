@@ -109,12 +109,12 @@ def make_pdf(month: str | int, md: str) -> None:
     # Convert month number to month name
     try:
         month_int = int(month)
-        month_name = datetime(1900, month_int, 1).strftime('%B')
+        month_name = datetime(1900, month_int, 1).strftime('%B').lower()
     except Exception: month_name = str(month)
     
     pdf = MarkdownPdf()
     pdf.add_section(Section(md, toc=False))
-    pdf.save(f"./reports/{month_name}_report_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.pdf")
+    pdf.save(f"./reports/{month_name}_report_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.pdf")
 
 
 # Test usage by running this
