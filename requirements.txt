@@ -1,7 +1,7 @@
 requests
 langchain
 langchain-core
-langchain_ollama
+langchain-ollama
 langchain-google-genai
 markdown-pdf
 python-dotenv
