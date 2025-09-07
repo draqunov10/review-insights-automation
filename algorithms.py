@@ -4,7 +4,7 @@ from datetime import datetime
 import json, subprocess, platform, os
 
 # Turn multiple JSON lines into an array of dicts
-def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[dict]:
+def parse_json_lines(file_path: str) -> list[dict]:    
     results = []
     with open(file_path, 'r', encoding='utf-8') as f:
         for line in f:
@@ -18,8 +18,11 @@ def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[d
     return results
 
 # Scrape LDV places with reviews, or use cache if available
-def scrape_LDV_places(file_path: str = "./cache_data/LDV_places.jsonl", use_cache: bool = False) -> list[dict]:
-    if os.path.exists(file_path) and use_cache:
+def scrape_LDV_places(file_path: str, reuse_cache: bool = False) -> list[dict]:
+    if not file_path or file_path.strip() == "":
+        raise ValueError("file_path must be a non-empty string.")
+    
+    if os.path.exists(file_path) and reuse_cache:
         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Using cached LDV places data.")
         return parse_json_lines(file_path)
 
