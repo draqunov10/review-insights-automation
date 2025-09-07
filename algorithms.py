@@ -16,6 +16,10 @@ def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[d
                     raise ValueError(f"Error parsing line: {e}")
     return results
 
+def check_places(places: list[dict]) -> None:
+    if not places: raise ValueError("No places found.")
+    [print(f"Missing user_reviews in place: {place.get('title', 'Unknown')}\nLink: {place.get('link', 'Unknown')}\n") for place in places if not place.get("user_reviews_extended")]
+
 # Reduce the places by selecting only those who are dealerships
 def filter_dealerships(places: list[dict]) -> list[dict]:
     def has_dealer(categories, place):
@@ -109,6 +113,4 @@ def make_pdf(md: str) -> None:
 
 # Test usage by running this
 if __name__ == "__main__":
-    for filtered_dealership in process_input(8):
-        print(filtered_dealership)
-        print(f"{'=' * 20}\n")
+    check_places(parse_json_lines())
