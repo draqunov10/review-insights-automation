@@ -105,10 +105,16 @@ def convert_to_report_data(
         "dealerships_with_reviews": processed_data,
     }
 
-def make_pdf(md: str) -> None:    
+def make_pdf(month: str | int, md: str) -> None:
+    # Convert month number to month name
+    try:
+        month_int = int(month)
+        month_name = datetime(1900, month_int, 1).strftime('%B')
+    except Exception: month_name = str(month)
+    
     pdf = MarkdownPdf()
     pdf.add_section(Section(md, toc=False))
-    pdf.save(f"./reports/report-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.pdf")
+    pdf.save(f"./reports/{month_name}_report_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.pdf")
 
 
 # Test usage by running this
