@@ -1,8 +1,6 @@
-from markdown_pdf import MarkdownPdf
+from markdown_pdf import MarkdownPdf, Section
 from datetime import datetime
-import tempfile
 import json
-import os
 
 # Turn multiple JSON lines into an array of dicts
 def parse_json_lines(file_path: str = "./cache_data/LDV_places.jsonl") -> list[dict]:
@@ -103,19 +101,10 @@ def convert_to_report_data(
         "dealerships_with_reviews": processed_data,
     }
 
-def make_pdf(md: str) -> None:
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".md", mode="w", encoding="utf-8") as tmp_md:
-        tmp_md.write(md)
-        tmp_md_path = tmp_md.name
-        
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    output_pdf = f"report-{date_str}.pdf"
-    
+def make_pdf(md: str) -> None:    
     pdf = MarkdownPdf()
-    pdf.add_markdown(tmp_md_path)
-    pdf.save(output_pdf)
-    
-    os.remove(tmp_md_path)
+    pdf.add_section(Section(md, toc=False))
+    pdf.save(f"./reports/report-{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.pdf")
 
 
 # Test usage by running this
