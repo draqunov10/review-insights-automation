@@ -6,7 +6,7 @@ import json
 def pipeline(month: str | int = "current", file_path: str | None = "./cache_data/LDV_places.jsonl", reuse_cache: bool = False) -> None:
     # month can be "current" or an integer 1-12
     if month == "current": month = datetime.now().month
-
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] | Running pipeline for month: {month} (reuse_cache={reuse_cache}) with path {file_path}")
 
     #* Step 1: Get dealer input and generate review summaries
     dealers_input = process_input(month, file_path, reuse_cache)
