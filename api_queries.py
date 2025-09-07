@@ -5,10 +5,11 @@ import os
 load_dotenv()
 
 # Using SerpAPI's Google Maps Reviews API
-def fetch_reviews(place_id: str):
+def fetch_reviews(data_id: str):
     params = {
         "engine": "google_maps_reviews",
-        "place_id": place_id,
+        "data_id": data_id,
+        "sort_by": "newestFirst",
         "api_key": os.getenv("SERP_API_KEY"),
     }
     search = GoogleSearch(params)
