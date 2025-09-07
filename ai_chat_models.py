@@ -121,15 +121,13 @@ def generate_reviews_analysis(user_prompt: str) -> str:
         HumanMessage(content=user_prompt)
     ]).text()
 
-    print(f"====== {response}")
-
     match = re.search(r'\{.*\}', response, re.DOTALL)
     if match: response = match.group(0)
     else: raise ValueError("Failed to extract JSON from dealers_input")
     return response
 
 def generate_models_analysis(user_prompt: str) -> str:
-    return ChatOllama(
+    response = ChatOllama(
         model="qwen2.5:32b",
         temperature=0,
         num_ctx=4096
@@ -137,6 +135,11 @@ def generate_models_analysis(user_prompt: str) -> str:
         SystemMessage(content=MODELS_ANALYSIS_TEMPLATE),
         HumanMessage(content=user_prompt)
     ]).text()
+
+    match = re.search(r'\{.*\}', response, re.DOTALL)
+    if match: response = match.group(0)
+    else: raise ValueError("Failed to extract JSON from models_analysis")
+    return response
 
 def generate_md_report(user_prompt: str) -> str:
     return ChatOllama(
