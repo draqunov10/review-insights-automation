@@ -5,3 +5,4 @@ langchain-ollama
 langchain-google-genai
 markdown-pdf
 python-dotenv
+google-search-results
