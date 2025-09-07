@@ -95,17 +95,25 @@ python report.py         # Or simply run the default pipeline
 
 ---
 
+### Car Model Reviews via Search Agent Feature (Optional)
+Currently, there is a feature that searches the internet for specific car models, compiles and creates a summary. These are then will become part of the output report.
+This is done through acyclics langchain graph utilizing an agent with Tavily tool. However, since there is feedback loop, usage could be quite large.
+It is optional by default due to its likely-to-be-heavy usage and can be activated via `-include-car-models`. More on parameters below.
+
+---
+
 ## Main.py Optional Parameters
 
-| Argument         | Type    | Default                        | Description                                                      |
-|------------------|---------|-------------------------------|------------------------------------------------------------------|
-| `-m`             | int     | `current` (uses current month) | Month as integer (1-12). Specify which month's reviews to process.|
-| `-reuse-cache`   | flag    | `False`                        | If set, reuses cached data for input processing.                  |
-| `-scrape_dir`    | string  | `./cache_data/LDV_places.jsonl`| Path to the JSONL file containing scraped review data.            |
+| Argument                | Type    | Default                          | Description                                                      |
+|-------------------------|---------|----------------------------------|------------------------------------------------------------------|
+| `-m`                    | int     | current month                    | Month as integer (1-12). Specify which month's reviews to process.|
+| `-reuse-cache`          | flag    | False                            | If set, reuses cached data for input processing.                  |
+| `-scrape_dir`           | string  | `./cache_data/LDV_places.jsonl`  | Path to the JSONL file containing scraped review data.            |
+| `-include-car-models`  | flag    | False                            | Include car model review summaries in the report.                 |
 
 **Example usage:**
 ```sh
-python main.py -m 9 -reuse-cache -scrape_dir ./cache_data/LDV_places.jsonl
+python main.py -m 9 -reuse-cache -scrape_dir ./cache_data/LDV_places.jsonl --include-car-models
 ```
 
 If no arguments are provided, defaults will be used. See `python main.py -h` for help.

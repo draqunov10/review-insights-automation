@@ -51,9 +51,33 @@ Rules & constraints:
 - When representative quotes exists, maintain them and enclosed in quotes.
 - Tone: professional, concise, and actionable (neutral-to-positive)."""
 
+# Slightly modified to cater to car model reviews
+MODELS_ANALYSIS_TEMPLATE = """You are an assistant expert at review sentiment analysis for car models.
+Task: Given an array of dictionaries/JSONs useful data, provide a meaningful insights/themes, prioritized recommendations, and measurable next steps based on customer feedback.
+This will be fed into a larger report.
+
+Guide:
+1. Produce a **sentiment analysis summary** (1-2 sentences) that an internal team and client can scan quickly.
+2. Extract **top themes** (3-6) from the reviews (positive, negative, or mixed), explain why each theme matters, and show supporting evidence (counts where possible and 1 representative short quote).
+3. Provide **actionable recommendations**, prioritized (High / Medium / Low) and tied to concrete next steps the business can take.
+5. Report **confidence & data gaps** (e.g., “no negative review text available — only counts”).
+
+Required output would be a JSON object with these keys:
+- `brief_sentiment_analysis_summary` (string, 1-2 sentences)
+- `themes` (array of objects): each `{ "theme": string, "sentiment": "positive|negative|mixed", "explanation": string, "representative_quotes": [strings up to 1] }`
+- `recommendations` (array): each `{ "priority": "High|Medium|Low", "action": string, "rationale": string, "suggested_kpis": [strings] }`
+- `confidence_and_gaps` (string): short note about confidence and any missing data
+
+Rules & constraints:
+- Pure JSON output starting with a left curly bracket { and ends with a right curly bracket }
+- Use only facts in `data`. Do **not** invent or infer details not present.
+- Include the website name and date of the review.
+- When representative quotes exists, maintain them and enclosed in quotes.
+- Tone: professional, concise, and actionable (neutral-to-positive)."""
+
 # Similarly, use chain-of-thought/reasoning model.
 REPORT_WRITING_TEMPLATE = """You are a business researcher tasked with writing a cohesive report about customer reviews for the client.
-You will be provided with the report data containing original review data and some initial analysis from an analyst assistant.
+You will be provided with the report data containing original review data and some analysis from an analyst assistant.
 
 Task: 
 1. You should first come up with an outline for the report that describes the structure and flow of the report.
@@ -61,7 +85,7 @@ Task:
 3. Make sure the report includes an executive summary, complete details including the review analysis, and actionable recommendations.
 
 The final output should be in *markdown format*, and it should be lengthy and detailed.
-Aim for 2-3 pages of content, at least 1000 words."""
+Aim for 2-4 pages of content, at least 1000 words."""
 
 
 # Helper function to parse out thoughts for chain-of-thoughts model
@@ -80,7 +104,8 @@ def parse_reasoning_output(output: str) -> dict:
 def generate_review_summary(user_prompt: str) -> str:
     return ChatOllama(
         model="qwen2.5:32b",
-        temperature=0
+        temperature=0,
+        num_ctx=1024
     ).invoke([
         SystemMessage(content=REVIEW_SUMMARY_TEMPLATE),
         HumanMessage(content=user_prompt)
@@ -89,7 +114,8 @@ def generate_review_summary(user_prompt: str) -> str:
 def generate_reviews_analysis(user_prompt: str) -> str:
     response = ChatOllama(
         model="qwen2.5:32b",
-        temperature=0
+        temperature=0,
+        num_ctx=4096
     ).invoke([
         SystemMessage(content=REVIEWS_ANALYSIS_TEMPLATE),
         HumanMessage(content=user_prompt)
@@ -100,10 +126,26 @@ def generate_reviews_analysis(user_prompt: str) -> str:
     else: raise ValueError("Failed to extract JSON from dealers_input")
     return response
 
+def generate_models_analysis(user_prompt: str) -> str:
+    response = ChatOllama(
+        model="qwen2.5:32b",
+        temperature=0,
+        num_ctx=4096
+    ).invoke([
+        SystemMessage(content=MODELS_ANALYSIS_TEMPLATE),
+        HumanMessage(content=user_prompt)
+    ]).text()
+
+    match = re.search(r'\{.*\}', response, re.DOTALL)
+    if match: response = match.group(0)
+    else: raise ValueError("Failed to extract JSON from models_analysis")
+    return response
+
 def generate_md_report(user_prompt: str) -> str:
     return ChatOllama(
         model="qwen2.5:32b",
-        temperature=0
+        temperature=0,
+        num_ctx=16384
     ).invoke([
         SystemMessage(content=REPORT_WRITING_TEMPLATE),
         HumanMessage(content=user_prompt)
