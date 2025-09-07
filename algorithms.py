@@ -155,17 +155,20 @@ def convert_to_report_data(
     desc: str,
     report_title: str,
     processed_data: list[dict],
-    analysis_of_processed_data: dict
+    analysis_of_processed_data: dict,
+    analysis_of_car_models: dict | None = None
 ) -> dict:
-    return {
+    report_data = {
         "client": client,
         "location": loc,
         "description": desc,
         "report_title": report_title,
         "report_date": datetime.now().strftime("%Y-%m-%d"),
-        "analysis_of_reviews": analysis_of_processed_data,
-        "dealerships_with_reviews": processed_data,
+        "analysis_of_rating_reviews": analysis_of_processed_data,
+        "dealerships_with_reviews": processed_data
     }
+    if analysis_of_car_models: report_data["analysis_of_car_models_reviews"] = analysis_of_car_models
+    return report_data
 
 def make_pdf(month: str | int, md: str) -> None:
     # Convert month number to month name
