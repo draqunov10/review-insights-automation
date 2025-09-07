@@ -1,22 +1,45 @@
-from api_queries import fetch_dealerships, fetch_reviews_of
-from models import dealership_model, report_model
+from ai_chat_models import generate_review_summary, generate_reviews_analysis, generate_md_report
+from algorithms import filter_out_keys, process_input, convert_to_report_data, make_pdf
+import json
 
-from langchain.chains import LLMChain
-from langchain_core.runnables import RunnableLambda
-from langchain.prompts import PromptTemplate
+def pipeline(month: str | int = "current") -> None:
+    # month can be "current" or an integer 1-12
+    if month == "current":
+        from datetime import datetime
+        month = datetime.now().month
 
-# Wrap functions as RunnableLambda
-scrape_dealerships = RunnableLambda(fetch_dealerships)
-scrape_reviews = RunnableLambda(fetch_reviews_of)
 
-prompt1 = PromptTemplate.from_template("{data}")
-generate_summary = LLMChain(llm=dealership_model, prompt=prompt1, output_key="summary")
+    #* Step 1: Get dealer input and generate review summaries
+    dealers_input = process_input(month)
+    for i, dealer in enumerate(dealers_input):
+        generated_review_summary = generate_review_summary(f"{dealer['user_reviews_extended']}")
+        dealers_input[i]["review_summary"] = generated_review_summary
+        dealers_input[i] = filter_out_keys(dealers_input[i], ["user_reviews_extended"])        
 
-prompt2 = PromptTemplate.from_template("{summary}")
-generate_report = LLMChain(llm=report_model, prompt=prompt2, output_key="insights")
+    print(f"STEP 1 - DEALERS INPUT:\n{dealers_input}")
+    print('=' * 20)
 
-def create_report():
-    return (scrape_dealerships | scrape_reviews | generate_summary | generate_report)
 
-# Example run
-print(create_report())
+    #* Step 2: Generate reviews analysis
+    generated_analysis = generate_reviews_analysis(f"{dealers_input}")
+    print(f"STEP 2 - ANALYSIS:\n{json.loads(generated_analysis)}")
+    print('=' * 20)
+
+
+    #* Step 3: Convert to report data and generate markdown
+    report_data = convert_to_report_data(
+        client="LDV",
+        loc="New South Wales, Australia",
+        desc="Customer reviews analysis report",
+        report_title="LDV Dealerships Review Report",
+        processed_data=dealers_input,
+        analysis_of_processed_data=generated_analysis
+    )
+
+    generated_md_report = generate_md_report(f"{report_data}")
+    make_pdf(generated_md_report)
+
+    print(f"STEP 3 - MARKDOWN REPORT:\n{generated_md_report}")
+
+if __name__ == "__main__":
+    pipeline()
