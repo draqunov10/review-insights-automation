@@ -113,7 +113,7 @@ It is optional by default due to its likely-to-be-heavy usage and can be activat
 
 **Example usage:**
 ```sh
-python main.py -m 9 -reuse-cache -scrape_dir ./cache_data/LDV_places.jsonl --include-car-models
+python main.py -m 9 -reuse-cache -scrape_dir ./cache_data/LDV_places.jsonl -include-car-models
 ```
 
 If no arguments are provided, defaults will be used. See `python main.py -h` for help.
