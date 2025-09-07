@@ -95,9 +95,67 @@ python report.py         # Or simply run the default pipeline
 
 ---
 
+## Guiding AI Models: Representative Examples
+
+You may check `ai_chat_model.py` for the approaches that I did for guiding AI models for business review analysis. Below are some representative examples of how prompts and templates were crafted to steer model behavior.
+
+### 1. Review Summarization
+**Prompt Engineering:**
+The `REVIEW_SUMMARY_TEMPLATE` instructs the AI to produce concise, neutral summaries, avoid fluff, and highlight specific strengths, weaknesses, and recommendations. It enforces strict output length and format, and even guides the tone to be professional and neutral-to-positive.
+
+**Example Template Excerpt:**
+```
+You are a concise review-summarization assistant.
+Task: Given a list of json reviews produce a **brief review summary** for human readers.
+Requirements:
+1. No fluff, answer the question directly.
+2. Output **one to four sentences** (aim for ~25-125 words). Keep it short.
+3. Be specific on the strengths, weaknesses, and recommendations if there are any.
+...etc.
+```
+
+### 2. Sentiment Analysis & Recommendations
+**Chain-of-Thought Reasoning:**
+The `REVIEWS_ANALYSIS_TEMPLATE` and `MODELS_ANALYSIS_TEMPLATE` guide the AI to extract themes, quantify evidence, and generate actionable recommendations. The prompt enforces output as pure JSON, with explicit keys for sentiment summary, metrics, themes, recommendations, and confidence notes. This ensures the model's output is structured, measurable, and ready for downstream automation.
+
+**Example Template Excerpt:**
+```
+Required output would be a JSON object with these keys:
+- `brief_sentiment_analysis_summary` (string, 1-2 sentences)
+- `overall_metrics` (object: ...)
+- `themes` (array of objects): ...
+- `recommendations` (array): ...
+- `confidence_and_gaps` (string): ...
+Rules & constraints:
+- Pure JSON output starting with a left curly bracket { and ends with a right curly bracket }
+- Use only facts in `data`. Do **not** invent or infer details not present.
+```
+
+### 3. Report Generation
+**Structured Output & Flow:**
+The `REPORT_WRITING_TEMPLATE` guides the AI to produce a multi-page, markdown-formatted business report, including an executive summary, detailed analysis, and actionable recommendations. The prompt explicitly requests an outline, then the full report, ensuring logical flow and completeness.
+
+**Example Template Excerpt:**
+```
+Task:
+1. You should first come up with an outline for the report that describes the structure and flow of the report.
+2. Then, generate the report and return that as your final output.
+3. Make sure the report includes an executive summary, complete details including the review analysis, and actionable recommendations.
+```
+
+### 4. Model Selection & API Usage
+**Best Practices:**
+While I carefully thought out what kind of models to use, one of the limitations I had was to use smaller models (e.g., `qwen2.5:32b`, `gemini-2.0-flash`) as I locally hosts and run the LLMs. Other than that, there are error handling as well to ensure only valid outputs are used. Prompts are always paired with system and human messages for context-rich interactions and prioritized task handling.
+
+---
+
 ### Car Model Reviews via Search Agent Feature (Optional)
-Currently, there is a feature that searches the internet for specific car models, compiles and creates a summary. These are then will become part of the output report.
+Currently, there is a feature that searches the internet for specific car models, compiles and creates a summary. These are then will become part of the output report. Here's a diagram how the agent is implemented.
+
+![Search Agent Diagram](./assets/search_agent_diagram.png)
+
 This is done through acyclics langchain graph utilizing an agent with Tavily tool. However, since there is feedback loop, usage could be quite large.
+
 It is optional by default due to its likely-to-be-heavy usage and can be activated via `-include-car-models`. More on parameters below.
 
 ---
