@@ -36,7 +36,6 @@ model = ChatOpenAI(
   api_key="ollama",
   base_url="http://localhost:11434/v1",
   temperature=0,
-  num_ctx=256
 )
 model = model.bind_tools(tool_belt)
 tool_node = ToolNode(tool_belt)
