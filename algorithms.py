@@ -128,8 +128,8 @@ def filter_out_keys(d: dict, keys: list[str]) -> dict:
     return {key: d[key] for key in d if key not in keys}
 
 # Return an array of dealerships json ready to feed by batch
-def process_input(month: str | int) -> list[dict]:
-    raw_ldv_places = scrape_LDV_places()
+def process_input(month: str | int, file_path: str, reuse_cache: bool) -> list[dict]:
+    raw_ldv_places = scrape_LDV_places(file_path, reuse_cache)
     filtered_ldv_dealerships = filter_dealerships(raw_ldv_places)
     filtered_ldv_dealerships_keys = [filter_keys(dealership, [
         "title",
