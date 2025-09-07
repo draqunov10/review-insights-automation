@@ -1,5 +1,6 @@
 import argparse
 from report import pipeline
+from datetime import datetime
 
 parser = argparse.ArgumentParser(
         description="Generate LDV review report",
@@ -19,7 +20,7 @@ Details:
     If no arguments are provided, defaults will be used.
 """
 )
-parser.add_argument("-m", type=int, help="Month as integer (1-12)", default="current")
+parser.add_argument("-m", type=int, help="Month as integer (1-12)", default=datetime.now().month)
 parser.add_argument("-reuse-cache", action="store_true", help="Reuse cached data for process_input")
 parser.add_argument("-scrape_dir", type=str, help="Directory to scrape data from", default=None)
 args = parser.parse_args()
