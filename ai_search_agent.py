@@ -31,7 +31,13 @@ MODELS = [
 
 #* Uses Top 3 search
 tool_belt = [TavilySearch(max_results=3)]
-model = ChatOpenAI(model="gpt-oss:20b", api_key="ollama", base_url="http://localhost:11434/v1", temperature=0)
+model = ChatOpenAI(
+  model="gpt-oss:20b",
+  api_key="ollama",
+  base_url="http://localhost:11434/v1",
+  temperature=0,
+  num_ctx=256
+)
 model = model.bind_tools(tool_belt)
 tool_node = ToolNode(tool_belt)
 
@@ -66,7 +72,7 @@ def search_and_summarize_model_reviews(models: list[str] = MODELS) -> list[dict]
   year = datetime.now().year
   results = []
   for model_name in models:
-    prompt = f"Search in Tavily to find latest ({year}) review/s of {model_name} and summarize the review/s.\nMake sure the summary of the review of the model is brief (3-5 sentences) and only in *1 paragraph*.\nMake sure to include the website name and date of the review.\nIf no review is found, say 'No review found'."
+    prompt = f"Search in Tavily to find latest ({year}) review/s of {model_name} and summarize all the review/s into one.\nMake sure *whole output* is brief (3-5 sentences) and only in *1 paragraph*.\nMake sure to include the website/s name and date/s of the review.\nIf no review is found, say 'No review found'."
     input = {"messages": [HumanMessage(content=prompt)]}
     model_reviews = []
     result = search_agent_graph.invoke(input)
