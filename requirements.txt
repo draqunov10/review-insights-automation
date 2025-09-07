@@ -1,7 +1,10 @@
 requests
+langgraph
 langchain
 langchain-core
 langchain-ollama
+langchain-openai
+langchain-tavily
 langchain-google-genai
 markdown-pdf
 python-dotenv
